@@ -1,9 +1,12 @@
 package BusinessLogicLayer.bll;
 
+import DataLayer.dao.CourseDAO;
 import DataLayer.dao.TeacherDAO;
+import DataLayer.model.Course;
 import DataLayer.model.Teacher;
 import DataLayer.model.User;
 
+import java.lang.reflect.Array;
 import java.util.ArrayList;
 
 /**
@@ -12,10 +15,12 @@ import java.util.ArrayList;
 public class TeacherBLL {
 
     private TeacherDAO teacherDAO;
+    private CourseDAO courseDAO;
     private UserBLL userBLL;
 
     public TeacherBLL(){
         teacherDAO = new TeacherDAO();
+        courseDAO = new CourseDAO();
         userBLL = new UserBLL();
     }
 
@@ -35,5 +40,13 @@ public class TeacherBLL {
 
     public ArrayList<Teacher> getAllTeachers(){
         return teacherDAO.getAllTeachers();
+    }
+
+    public Teacher getSpecificTeacher(User user){
+        return teacherDAO.getSpecificTeacher(user);
+    }
+
+    public ArrayList<Course> getAllCourses(){
+        return courseDAO.getAllCourses();
     }
 }

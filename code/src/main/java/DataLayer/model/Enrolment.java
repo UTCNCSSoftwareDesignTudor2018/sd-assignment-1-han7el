@@ -38,4 +38,8 @@ public class Enrolment {
     public ArrayList<EnrolledCourse> getEnrolledCourses() {
         return enrolledCourses;
     }
+
+    public void setEnrolledCourses(ArrayList<EnrolledCourse> enrolledCourses) {
+        this.enrolledCourses = enrolledCourses;
+    }
 }

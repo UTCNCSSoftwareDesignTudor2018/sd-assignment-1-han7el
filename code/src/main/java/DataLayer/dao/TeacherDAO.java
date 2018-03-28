@@ -2,6 +2,7 @@ package DataLayer.dao;
 
 import DataLayer.model.Teacher;
 import DataLayer.connection.ConnectionFactory;
+import DataLayer.model.User;
 
 import java.sql.*;
 import java.util.ArrayList;
@@ -68,9 +69,10 @@ public class TeacherDAO {
             updateStatement.setString(2,teacher.getIcnumber());
             updateStatement.setString(3,teacher.getCnp());
             updateStatement.setString(4,teacher.getAddress());
+            updateStatement.setInt(5,teacher.getUserid());
             updateStatement.executeUpdate();
         }catch(SQLException e){
-            LOGGER.log(Level.WARNING,"StudentDAO:updateStudent " + e.getMessage());
+            LOGGER.log(Level.WARNING,"TeacherDAO:updateTeacher " + e.getMessage());
         }finally {
             ConnectionFactory.close(updateStatement);
             ConnectionFactory.close(dbConnection);
@@ -105,6 +107,41 @@ public class TeacherDAO {
             ConnectionFactory.close(dbConnection);
         }
         return teachers;
+    }
+
+    public Teacher getSpecificTeacher(User user){
+
+        Connection dbConnection = ConnectionFactory.getConnection();
+        PreparedStatement getSpecificStatement = null;
+        ResultSet resultSet = null;
+        Teacher foundTeacher;
+        try {
+            getSpecificStatement = dbConnection.prepareStatement(getSpecificStatementString);
+            getSpecificStatement.setInt(1, user.getUserid());
+            resultSet = getSpecificStatement.executeQuery();
+
+            if (resultSet.next()) {
+                foundTeacher = new Teacher();
+                foundTeacher.setUserid(user.getUserid());
+                foundTeacher.setUsername(user.getUsername());
+                foundTeacher.setPassword(user.getPassword());
+                foundTeacher.setUsertype(user.getUsertype());
+                foundTeacher.setName(resultSet.getString("name"));
+                foundTeacher.setIcnumber(resultSet.getString("icnumber"));
+                foundTeacher.setCnp(resultSet.getString("cnp"));
+                foundTeacher.setAddress(resultSet.getString("address"));
+            }
+            else
+                foundTeacher = null;
+        }catch (SQLException e){
+            LOGGER.log(Level.WARNING,"TeacherDAO:getSpecific " + e.getMessage());
+            foundTeacher = null;
+        }finally{
+            ConnectionFactory.close(resultSet);
+            ConnectionFactory.close(getSpecificStatement);
+            ConnectionFactory.close(dbConnection);
+        }
+        return foundTeacher;
     }
 
 }

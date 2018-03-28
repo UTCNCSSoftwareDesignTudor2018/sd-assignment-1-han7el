@@ -15,10 +15,9 @@ import java.util.logging.Logger;
  */
 public class EnrolmentDAO {
 
-    private static final String getSpecificStatementString = "SELECT * FROM utcn.`enrolment` WHERE userid = ?";
-    private static final String insertStatementString = "INSERT INTO utcn.`enrolment` (userid,courseid,grade,date)" + "VALUES (?,?,?,?)";
+    private static final String getSpecificStatementString = "SELECT * FROM utcn.`enrolments` WHERE userid = ?";
+    private static final String insertStatementString = "INSERT INTO utcn.`enrolments` (userid,courseid,grade,date)" + "VALUES (?,?,?,?)";
     private static final Logger LOGGER = Logger.getLogger(EnrolmentDAO.class.getName());
-
 
     public void insertEnrolment(EnrolledCourse enrolledCourse,Student student){
         Connection dbConnection = ConnectionFactory.getConnection();

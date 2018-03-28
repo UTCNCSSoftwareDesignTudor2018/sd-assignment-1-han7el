@@ -26,4 +26,10 @@ public class Course {
     public void setCourseid(int courseid) {
         this.courseid = courseid;
     }
+
+    public boolean equals(Object object){
+        if(courseid == ((Course)object).getCourseid())
+            return true;
+        return false;
+    }
 }

@@ -1,5 +1,6 @@
 package DataLayer.dao;
 
+import BusinessLogicLayer.functions.Function;
 import DataLayer.model.Student;
 import DataLayer.model.Teacher;
 import DataLayer.model.User;
@@ -20,7 +21,7 @@ public class UserDAO {
     private static final String getSpecificStatementString = "SELECT * FROM utcn.`users` WHERE userid = ?";
     private static final String updateStatementString = "UPDATE utcn.`users` SET username=?,userpassword=?,usertype=?";
     private static final String deleteStatementString = "DELETE FROM utcn.`users` WHERE userid=?";
-    private static final String insertStatementString = "INSERT INTO utcn.`users` (username,userpassword,usertype)" + "VALUES (?,?,?)";
+    private static final String insertStatementString = "INSERT INTO utcn.`users` (username,userpassword,usertype)VALUES (?,?,?)";
     private static final Logger LOGGER = Logger.getLogger(StudentDAO.class.getName());
 
     public int insertUser(User user){
@@ -72,32 +73,36 @@ public class UserDAO {
         Connection dbConnection = ConnectionFactory.getConnection();
         PreparedStatement getSpecificStatement = null;
         ResultSet resultSet = null;
-        User founduser = null;
+        User founduser;
         try{
             getSpecificStatement = dbConnection.prepareStatement(getSpecificStatementString);
             getSpecificStatement.setInt(1,userid);
             resultSet = getSpecificStatement.executeQuery();
             if(resultSet.next()){
-                if(resultSet.getInt("usertype")==0)
-                {
-                    founduser = new Teacher();
-                    founduser.setUsertype(resultSet.getInt("usertype"));
-                }
-                else if(resultSet.getInt("usertype")!=0)
-                {
-                    founduser = new Student();
-                    founduser.setUsertype(resultSet.getInt("usertype"));
-                }
-                founduser.setUserid(userid);
-                founduser.setUsername(resultSet.getString("username"));
-                founduser.setPassword(resultSet.getString("password"));
+                    if(resultSet.getInt("usertype")==Function.STUDENT_TYPE){
+                        founduser = new Student();
+                        founduser.setUsertype(resultSet.getInt("usertype"));
+                        founduser.setUserid(userid);
+                        founduser.setUsername(resultSet.getString("username"));
+                        founduser.setPassword(resultSet.getString("userpassword"));
+                    }
+                    else if(resultSet.getInt("usertype")==Function.TEACHER_TYPE){
+                        founduser = new Teacher();
+                        founduser.setUsertype(resultSet.getInt("usertype"));
+                        founduser.setUserid(userid);
+                        founduser.setUsername(resultSet.getString("username"));
+                        founduser.setPassword(resultSet.getString("userpassword"));
+                    }
+                    else
+                        founduser = null;
             }
             else
             {
                 founduser = null;
             }
         }catch (SQLException e){
-            LOGGER.log(Level.WARNING,"CourseDAO:getSpecific" + e.getMessage());
+            LOGGER.log(Level.WARNING,"UserDAO:getSpecific" + e.getMessage());
+            founduser = null;
         }finally{
             ConnectionFactory.close(resultSet);
             ConnectionFactory.close(getSpecificStatement);
@@ -106,37 +111,29 @@ public class UserDAO {
         return founduser;
     }
 
-    public User getLoginUser(User user){
+    public User getLoginUser(User user)throws IllegalArgumentException{
 
         Connection dbConnection = ConnectionFactory.getConnection();
         PreparedStatement getSpecificStatement = null;
         ResultSet resultSet = null;
-        User loginuser = null;
+        User loginuser;
         try{
             getSpecificStatement = dbConnection.prepareStatement(getLoginStatementString);
             getSpecificStatement.setString(1,user.getUsername());
-            getSpecificStatement.setString(1,user.getPassword());
+            getSpecificStatement.setString(2,user.getPassword());
             resultSet = getSpecificStatement.executeQuery();
             if(resultSet.next()){
-                if(resultSet.getInt("usertype")==0)
-                {
-                    loginuser = new Teacher();
+                    loginuser = new User();
+                    loginuser.setUsertype(resultSet.getInt("usertype"));
+                    loginuser.setUserid(resultSet.getInt("userid"));
+                    loginuser.setUsername(user.getUsername());
+                    loginuser.setPassword(user.getPassword());
                 }
-                else if(resultSet.getInt("usertype")!=0)
-                {
-                    loginuser = new Student();
-                }
-                loginuser.setUserid(resultSet.getInt("userid"));
-                loginuser.setUsertype(resultSet.getInt("usertype"));
-                loginuser.setUsername(user.getUsername());
-                loginuser.setPassword(user.getPassword());
-            }
-            else
-            {
-                loginuser = null;
-            }
+                else
+                    loginuser = null;
         }catch (SQLException e){
-            LOGGER.log(Level.WARNING,"CourseDAO:getLogin" + e.getMessage());
+            LOGGER.log(Level.WARNING,"UserDAO:getLogin " + e.getMessage());
+            throw new IllegalArgumentException("Problem with the Database!\n");
         }finally{
             ConnectionFactory.close(resultSet);
             ConnectionFactory.close(getSpecificStatement);

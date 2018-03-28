@@ -18,6 +18,9 @@ public class Function {
     public static final int IN_LENGTH = 8;
     public static final int GN_LENGTH = 5;
 
+    public static final int STUDENT_TYPE = 1;
+    public static final int TEACHER_TYPE = 0;
+
     public static boolean isNumeric(String str)
     {
         try

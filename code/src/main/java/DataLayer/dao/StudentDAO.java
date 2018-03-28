@@ -2,6 +2,7 @@ package DataLayer.dao;
 
 import DataLayer.model.Student;
 import DataLayer.connection.ConnectionFactory;
+import DataLayer.model.User;
 
 import java.sql.*;
 import java.util.ArrayList;
@@ -16,9 +17,9 @@ public class StudentDAO {
 
     private static final String getAllStatementString = "SELECT * FROM utcn.`students`";
     private static final String getSpecificStatementString = "SELECT * FROM utcn.`students` WHERE userid = ?";
-    private static final String updateStatementString = "UPDATE utcn.`students` SET name=?,icnumber=?,cnp=?,address=?,identificationnumber=?,group=? WHERE userid=?";
+    private static final String updateStatementString = "UPDATE utcn.`students` SET name=?,icnumber=?,cnp=?,address=?,identificationnumber=?,`group`=? WHERE userid=?";
     private static final String deleteStatementString = "DELETE FROM utcn.`students` WHERE userid=?";
-    private static final String insertStatementString = "INSERT INTO utcn.`students` (userid,name,icnumber,cnp,address,identificationnumber,group)" + "VALUES (?,?,?,?,?,?,?)";
+    private static final String insertStatementString = "INSERT INTO utcn.`students` (userid,name,icnumber,cnp,address,identificationnumber,`group`)VALUES (?,?,?,?,?,?,?)";
     private static final Logger LOGGER = Logger.getLogger(StudentDAO.class.getName());
 
     public void insertStudent(Student student){
@@ -99,9 +100,9 @@ public class StudentDAO {
                 student.setName(resultSet.getString("name"));
                 student.setIcnumber(resultSet.getString("icnumber"));
                 student.setCnp(resultSet.getString("cnp"));
-                student.setAddress(resultSet.getString("identificationnumber"));
+                student.setIdentificationnumber(resultSet.getString("identificationnumber"));
                 student.setAddress(resultSet.getString("address"));
-                student.setAddress(resultSet.getString("group"));
+                student.setGroup(resultSet.getString("group"));
 
                 students.add(student);
             }
@@ -113,5 +114,42 @@ public class StudentDAO {
             ConnectionFactory.close(dbConnection);
         }
         return students;
+    }
+
+    public Student getSpecificStudent(User user){
+
+        Connection dbConnection = ConnectionFactory.getConnection();
+        PreparedStatement getSpecificStatement = null;
+        ResultSet resultSet = null;
+        Student foundstudent;
+        try {
+            getSpecificStatement = dbConnection.prepareStatement(getSpecificStatementString);
+            getSpecificStatement.setInt(1, user.getUserid());
+            resultSet = getSpecificStatement.executeQuery();
+
+            if (resultSet.next()) {
+                foundstudent = new Student();
+                foundstudent.setUserid(user.getUserid());
+                foundstudent.setUsername(user.getUsername());
+                foundstudent.setPassword(user.getPassword());
+                foundstudent.setUsertype(user.getUsertype());
+                foundstudent.setName(resultSet.getString("name"));
+                foundstudent.setIcnumber(resultSet.getString("icnumber"));
+                foundstudent.setCnp(resultSet.getString("cnp"));
+                foundstudent.setAddress(resultSet.getString("address"));
+                foundstudent.setIdentificationnumber(resultSet.getString("identificationnumber"));
+                foundstudent.setGroup(resultSet.getString("group"));
+            }
+            else
+                foundstudent = null;
+        }catch (SQLException e){
+            LOGGER.log(Level.WARNING,"StudentDAO:getSpecific " + e.getMessage());
+            foundstudent = null;
+        }finally{
+            ConnectionFactory.close(resultSet);
+            ConnectionFactory.close(getSpecificStatement);
+            ConnectionFactory.close(dbConnection);
+        }
+        return foundstudent;
     }
 }

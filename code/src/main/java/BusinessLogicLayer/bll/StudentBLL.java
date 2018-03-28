@@ -40,6 +40,10 @@ public class StudentBLL {
         studentDAO.deleteStudent(student);
     }
 
+    public Student getSpecificStudent(User user){
+        return studentDAO.getSpecificStudent(user);
+    }
+
     public void updateStudent(Student student){
         studentDAO.updateStudent(student);
     }
