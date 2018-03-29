@@ -9,7 +9,7 @@ import DataLayer.model.Student;
 public class GnValidator implements Validator<Student> {
     public void validate(Student student) {
         if(!Function.isNumeric(student.getGroup())
-                && !Function.isWellFormed(student.getGroup(),Function.GN_LENGTH,Function.STRONG)){
+                || !Function.isWellFormed(student.getGroup(),Function.GN_LENGTH,Function.STRONG)){
             throw new IllegalArgumentException("Group number is invalid for: " + student.getName());
         }
     }

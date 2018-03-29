@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="0.0" y="75.0">BusinessLogicLayer.bll.EnrolmentBLL</node>
+    <node x="0.0" y="225.0">BusinessLogicLayer.bll.UserBLL</node>
+    <node x="0.0" y="150.0">BusinessLogicLayer.bll.StudentBLL</node>
+    <node x="165.0" y="75.0">BusinessLogicLayer.bll.TeacherBLL</node>
+    <node x="0.0" y="0.0">BusinessLogicLayer.bll.ReportCreator</node>
+    <node x="152.0" y="150.0">BusinessLogicLayer.functions.Function</node>
+  </nodes>
+  <notes />
+  <edges />
+  <settings layout="Hierarchic Group" zoom="1.0" x="553.0" y="165.0" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

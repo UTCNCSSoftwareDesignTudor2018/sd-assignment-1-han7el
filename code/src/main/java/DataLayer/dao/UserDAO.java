@@ -32,7 +32,7 @@ public class UserDAO {
         int insertedid = -1;
         try{
             insertStatement = dbConnection.prepareStatement(insertStatementString,Statement.RETURN_GENERATED_KEYS);
-            insertStatement.setString(1,user.getName());
+            insertStatement.setString(1,user.getUsername());
             insertStatement.setString(2,user.getPassword());
             insertStatement.setInt(3,user.getUsertype());
             insertStatement.executeUpdate();
@@ -44,6 +44,7 @@ public class UserDAO {
 
         }catch(SQLException e){
             LOGGER.log(Level.WARNING,"UserDAO:insert " + e.getMessage());
+            throw new IllegalArgumentException(e.getMessage());
         }finally{
             ConnectionFactory.close(insertStatement);
             ConnectionFactory.close(dbConnection);

@@ -55,9 +55,11 @@ public class ProcessEnrolmentView {
                     java.sql.Date sqlDate = java.sql.Date.valueOf(localDate);
 
                     Enrolment newEnrolment = new Enrolment();
+                    newEnrolment.setStudent(enrolment.getStudent());
                     newEnrolment.addCourse(newCourse, Integer.valueOf(gradeTextField.getText()), sqlDate);
                     teacherController.insertEnrolment(newEnrolment);
 
+                    enrolment.setEnrolledCourses(teacherController.getEnrolledCoursesOfStudent(enrolment.getStudent()));
                     updateCoursesTable();
                 }
             }

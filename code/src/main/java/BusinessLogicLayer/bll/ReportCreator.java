@@ -8,7 +8,7 @@ import com.itextpdf.text.Phrase;
 import com.itextpdf.text.pdf.PdfPCell;
 import com.itextpdf.text.pdf.PdfPTable;
 import com.itextpdf.text.pdf.PdfWriter;
-import jdk.nashorn.internal.scripts.JO;
+
 
 import javax.swing.*;
 import java.io.FileOutputStream;
@@ -21,18 +21,19 @@ public class ReportCreator {
     public static void createReport(Enrolment enrolment) {
 
         try {
-            int columnCount = 3;
+            int columnCount = 4;
             Document doc = new Document();
 
-            PdfWriter.getInstance(doc, new FileOutputStream(enrolment.getStudent().getName() + ".pdf"));
+            PdfWriter.getInstance(doc, new FileOutputStream(enrolment.getStudent().getName() + "_report.pdf"));
             doc.open();
 
             //adding headers
             Paragraph paragraph=new Paragraph();
-            paragraph.add("Customer:"+enrolment.getStudent().toString()+"\n");
+            paragraph.add("Student:"+enrolment.getStudent().toString()+"\n");
             paragraph.add("Enrolled courses:\n ");
             doc.add(paragraph);
             PdfPTable pdfTable = new PdfPTable(columnCount);
+            pdfTable.addCell(new PdfPCell(new Phrase(" ")));
             pdfTable.addCell(new PdfPCell(new Phrase("Course name")));
             pdfTable.addCell(new PdfPCell(new Phrase("Enrolment date")));
             pdfTable.addCell(new PdfPCell(new Phrase("Grade")));

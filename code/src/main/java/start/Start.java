@@ -1,8 +1,7 @@
 package start;
 
-import PresentationLayer.Controller;
-import PresentationLayer.LoginView;
-import sun.rmi.runtime.Log;
+import PresentationLayer.controllers.Controller;
+import PresentationLayer.views.LoginView;
 
 public class Start {
 

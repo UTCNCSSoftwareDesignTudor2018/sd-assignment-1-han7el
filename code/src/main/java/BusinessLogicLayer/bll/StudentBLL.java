@@ -7,6 +7,7 @@ import DataLayer.dao.StudentDAO;
 import DataLayer.model.Student;
 import DataLayer.model.User;
 
+import javax.swing.*;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -28,10 +29,10 @@ public class StudentBLL {
     }
 
     public void insertStudent(Student student){
-        User inserteduser = userBLL.insertUser((User)student);
         for(Validator<Student> sv: validators){
-            sv.validate(student);
+                sv.validate(student);
         }
+        User inserteduser = userBLL.insertUser((User)student);
         studentDAO.insertStudent((Student)inserteduser);
     }
 
@@ -45,6 +46,12 @@ public class StudentBLL {
     }
 
     public void updateStudent(Student student){
+        for(Validator<Student> sv: validators){
+            sv.validate(student);
+        }
+        for(Validator<User> uv: userBLL.getValidators()){
+            uv.validate(student);
+        }
         studentDAO.updateStudent(student);
     }
 

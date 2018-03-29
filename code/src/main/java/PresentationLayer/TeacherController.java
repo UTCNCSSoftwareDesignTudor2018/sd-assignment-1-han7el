@@ -1,12 +1,13 @@
 package PresentationLayer;
 
 import BusinessLogicLayer.bll.EnrolmentBLL;
+import BusinessLogicLayer.bll.ReportCreator;
 import BusinessLogicLayer.bll.StudentBLL;
 import BusinessLogicLayer.bll.TeacherBLL;
-import BusinessLogicLayer.bll.UserBLL;
 import DataLayer.model.*;
+import com.sun.xml.internal.ws.api.model.wsdl.editable.EditableWSDLMessage;
 
-import java.lang.reflect.Array;
+import javax.swing.*;
 import java.util.ArrayList;
 
 public class TeacherController {
@@ -24,16 +25,13 @@ public class TeacherController {
         this.teacher = teacherBLL.getSpecificTeacher(user);
     }
 
-    public void insertTeacher(){
-        teacherBLL.insertTeacher(teacher);
-    }
-
     public void updateTeacher(){
-        teacherBLL.updateTeacher(teacher);
-    }
 
-    public void deleteTeacher(){
-        teacherBLL.deleteTeacher(teacher);
+        try {
+            teacherBLL.updateTeacher(teacher);
+        }catch (IllegalArgumentException iae){
+            JOptionPane.showMessageDialog(null,iae.getMessage());
+        }
     }
 
     public ArrayList<Student> getAllStudents(){
@@ -41,15 +39,24 @@ public class TeacherController {
     }
 
     public void insertEnrolment(Enrolment enrolment){
-        enrolmentBLL.insertEnrolment(enrolment);
+        try{
+            enrolmentBLL.insertEnrolment(enrolment);
+        }catch (IllegalArgumentException iae){
+            JOptionPane.showMessageDialog(null, iae.getMessage());
+        }
     }
 
     public Teacher getTeacher(){
-       return this.teacher;
+        updateInformation();
+        return this.teacher;
     }
 
-    public void addNewStudent(Student student) {
-        studentBLL.insertStudent(student);
+    public void insertStudent(Student student) {
+        try {
+            studentBLL.insertStudent(student);
+        }catch (IllegalArgumentException iae){
+            JOptionPane.showMessageDialog(null,iae.getMessage());
+        }
     }
 
     public ArrayList<EnrolledCourse> getEnrolledCoursesOfStudent(Student student){
@@ -58,5 +65,16 @@ public class TeacherController {
 
     public ArrayList<Course> getAllCourses(){
         return teacherBLL.getAllCourses();
+    }
+
+    public void updateInformation(){
+        this.teacher = teacherBLL.getSpecificTeacher(teacher);
+    }
+
+    public void createReportForStudent(Student student){
+        Enrolment enrolment = new Enrolment();
+        enrolment.setStudent(student);
+        enrolment.setEnrolledCourses(this.getEnrolledCoursesOfStudent(student));
+        ReportCreator.createReport(enrolment);
     }
 }

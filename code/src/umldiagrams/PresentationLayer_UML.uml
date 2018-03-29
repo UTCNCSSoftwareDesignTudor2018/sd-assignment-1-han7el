@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="187.0" y="148.0">PresentationLayer.StudentController</node>
+    <node x="0.0" y="148.0">PresentationLayer.TeacherController</node>
+    <node x="0.0" y="74.0">PresentationLayer.ProcessEnrolmentView</node>
+    <node x="212.0" y="74.0">PresentationLayer.AddNewStudentView</node>
+    <node x="214.0" y="0.0">PresentationLayer.EnrolmentStudentView</node>
+    <node x="0.0" y="0.0">PresentationLayer.EnrolmentTeacherView</node>
+    <node x="0.0" y="296.0">PresentationLayer.LoginView</node>
+    <node x="148.0" y="296.0">PresentationLayer.Controller</node>
+    <node x="160.0" y="222.0">PresentationLayer.StudentView</node>
+    <node x="0.0" y="222.0">PresentationLayer.TeacherView</node>
+  </nodes>
+  <notes />
+  <edges />
+  <settings layout="Hierarchic Group" zoom="1.0" x="0.0" y="0.0" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

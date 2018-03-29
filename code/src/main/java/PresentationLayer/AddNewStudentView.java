@@ -50,7 +50,7 @@ public class AddNewStudentView {
                 newStudent.setIdentificationnumber(inTextField.getText());
                 newStudent.setGroup(groupTextField.getText());
 
-                teacherController.addNewStudent(newStudent);
+                teacherController.insertStudent(newStudent);
             }
         });
     }

@@ -9,6 +9,8 @@ import DataLayer.model.Student;
 import DataLayer.model.Teacher;
 import DataLayer.model.User;
 
+import javax.swing.*;
+import java.awt.*;
 import java.util.ArrayList;
 
 public class StudentController {
@@ -26,16 +28,13 @@ public class StudentController {
         this.student = studentBLL.getSpecificStudent(user);
     }
 
-    public void insertStudent(Student student){
-        studentBLL.insertStudent(student);
-    }
-
     public void updateStudent(Student student){
-        studentBLL.updateStudent(student);
-    }
+        try{
+            studentBLL.updateStudent(student);
+        }catch (IllegalArgumentException iae){
+            JOptionPane.showMessageDialog(null,iae.getMessage());
+        }
 
-    public void deleteStudent(Student student){
-        studentBLL.deleteStudent(student);
     }
 
     public ArrayList<EnrolledCourse> getEnrolledCoursesOfStudent(Student student){
@@ -43,10 +42,15 @@ public class StudentController {
     }
 
     public Student getStudent() {
+        updateStudentInformation();
         return student;
     }
 
     public void setStudent(Student student) {
         this.student = student;
+    }
+
+    public void updateStudentInformation(){
+        this.student = studentBLL.getSpecificStudent(student);
     }
 }

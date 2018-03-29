@@ -22,6 +22,7 @@ public class UserBLL {
         validators.add(new CnpValidator());
         validators.add(new IcnValidator());
         validators.add(new AddressValidator());
+        validators.add(new UsernameValidator());
     }
 
     public User loginUser (User user)throws IllegalArgumentException{
@@ -44,4 +45,7 @@ public class UserBLL {
         return userDAO.getSpecificUser(userid);
     }
 
+    public List<Validator<User>> getValidators() {
+        return validators;
+    }
 }

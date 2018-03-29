@@ -1,7 +1,6 @@
 package PresentationLayer;
 
 import DataLayer.model.Teacher;
-import com.itextpdf.text.log.SysoCounter;
 
 import javax.swing.*;
 import java.awt.event.ActionEvent;
@@ -10,6 +9,7 @@ import java.awt.event.ActionListener;
 public class TeacherView {
 
     TeacherController teacherController;
+    Teacher teacher;
 
     private JPanel panel;
     private JLabel personalInformationLabel;
@@ -28,7 +28,6 @@ public class TeacherView {
 
     public TeacherView(TeacherController teacherController){
         this.teacherController = teacherController;
-        Teacher teacher = teacherController.getTeacher();
 
         JFrame frame = new JFrame("Teacher");
         frame.setContentPane(panel);
@@ -37,27 +36,19 @@ public class TeacherView {
         frame.setVisible(true);
         frame.setLocationRelativeTo(null);
 
-        nameTextField.setText(teacher.getName());
-        icnTextField.setText(teacher.getIcnumber());
-        cnpTextField.setText(teacher.getCnp());
-        addressTextField.setText(teacher.getAddress());
+        updatePersonalInformation();
 
-        nameTextField.setEditable(false);
-        icnTextField.setEditable(false);
-        cnpTextField.setEditable(false);
-        addressTextField.setEditable(false);
+        setTextFields(false);
 
         finishUpdateButton.setEnabled(false);
 
         editPersonalInformationButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                nameTextField.setEditable(true);
-                icnTextField.setEditable(true);
-                cnpTextField.setEditable(true);
-                addressTextField.setEditable(true);
+                setTextFields(true);
 
                 finishUpdateButton.setEnabled(true);
+                editPersonalInformationButton.setEnabled(false);
             }
         });
 
@@ -65,7 +56,7 @@ public class TeacherView {
             @Override
             public void actionPerformed(ActionEvent e) {
                 finishUpdateButton.setEnabled(false);
-
+                editPersonalInformationButton.setEnabled(true);
                 Teacher editedTeacher = teacherController.getTeacher();
                 editedTeacher.setName(nameTextField.getText());
                 editedTeacher.setIcnumber(icnTextField.getText());
@@ -73,10 +64,8 @@ public class TeacherView {
                 editedTeacher.setAddress(addressTextField.getText());
                 teacherController.updateTeacher();
 
-                nameTextField.setEditable(false);
-                icnTextField.setEditable(false);
-                cnpTextField.setEditable(false);
-                addressTextField.setEditable(false);
+                updatePersonalInformation();
+                setTextFields(false);
             }
         });
         addNewStudent.addActionListener(new ActionListener() {
@@ -88,9 +77,24 @@ public class TeacherView {
         processEnrolmentButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                new EnrolmentView(teacherController);
+                new EnrolmentTeacherView(teacherController);
             }
         });
+    }
+
+    public void updatePersonalInformation(){
+        teacher = teacherController.getTeacher();
+        nameTextField.setText(teacher.getName());
+        icnTextField.setText(teacher.getIcnumber());
+        cnpTextField.setText(teacher.getCnp());
+        addressTextField.setText(teacher.getAddress());
+    }
+
+    public void setTextFields(boolean bol){
+        nameTextField.setEditable(bol);
+        icnTextField.setEditable(bol);
+        cnpTextField.setEditable(bol);
+        addressTextField.setEditable(bol);
     }
 
 }

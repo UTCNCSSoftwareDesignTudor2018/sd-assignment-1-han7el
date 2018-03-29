@@ -10,7 +10,7 @@ public class IcnValidator implements Validator<User> {
 
     public void validate(User user) {
         if(!Function.isNumeric(user.getIcnumber())
-                && !Function.isWellFormed(user.getIcnumber(),Function.ICN_LENGTH,Function.STRONG)){
+                || !Function.isWellFormed(user.getIcnumber(),Function.ICN_LENGTH,Function.STRONG)){
             throw new IllegalArgumentException("Identity card number is invalid (exactly 6 characters) for: " + user.getName());
         }
     }

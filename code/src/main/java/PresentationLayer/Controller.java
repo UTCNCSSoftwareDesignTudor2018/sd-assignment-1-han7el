@@ -37,7 +37,8 @@ public class Controller {
             System.out.println(iae.getMessage());
         }
         catch(NullPointerException e){
-            System.out.println("Wrong username or password (null pointer!\n");
+            JOptionPane.showMessageDialog(null,"Invalid username or password");
+            System.out.println("Wrong username or password!\n");
         }
     }
 }

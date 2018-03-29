@@ -32,5 +32,12 @@ public class Student extends User{
         this.group = group;
     }
 
-
+    public String toString(){
+        return this.getName() + "; " + "Identification number: " +
+                this.getIdentificationnumber() + "; " + "group: " +
+                this.getGroup() + "; " + "identity card number: " +
+                this.getIcnumber() + "; " + "CNP: " +
+                this.getCnp() + "; " + "address " +
+                this.getAddress() + "\n";
+    }
 }

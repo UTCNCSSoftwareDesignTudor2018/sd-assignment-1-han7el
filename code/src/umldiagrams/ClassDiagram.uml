@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="186.0" y="153.0">BusinessLogicLayer.validators.AddressValidator</node>
+    <node x="242.0" y="0.0">BusinessLogicLayer.validators.UsernameValidator</node>
+    <node x="318.0" y="375.0">BusinessLogicLayer.validators.IcnValidator</node>
+    <node x="370.0" y="153.0">BusinessLogicLayer.validators.NameValidator</node>
+    <node x="0.0" y="301.0">BusinessLogicLayer.validators.CnpValidator</node>
+    <node x="63.25" y="0.0">DataLayer.model.User</node>
+    <node x="0.0" y="227.0">DataLayer.dao.EnrolmentDAO</node>
+    <node x="156.0" y="449.0">DataLayer.dao.CourseDAO</node>
+    <node x="450.0" y="523.0">PresentationLayer.Controller</node>
+    <node x="152.0" y="523.0">BusinessLogicLayer.validators.InValidator</node>
+    <node x="141.0" y="597.0">BusinessLogicLayer.bll.UserBLL</node>
+    <node x="275.0" y="597.0">DataLayer.model.Course</node>
+    <node x="0.0" y="375.0">PresentationLayer.StudentView</node>
+    <node x="0.0" y="523.0">BusinessLogicLayer.bll.StudentBLL</node>
+    <node x="162.0" y="301.0">PresentationLayer.TeacherView</node>
+    <node x="159.0" y="375.0">DataLayer.dao.StudentDAO</node>
+    <node x="0.0" y="597.0">DataLayer.dao.UserDAO</node>
+    <node x="0.0" y="449.0">BusinessLogicLayer.validators.GnValidator</node>
+    <node x="0.0" y="153.0">PresentationLayer.StudentController</node>
+    <node x="436.0" y="0.0">PresentationLayer.TeacherController</node>
+    <node x="346.0" y="227.0">BusinessLogicLayer.bll.EnrolmentBLL</node>
+    <node x="109.0" y="79.0">DataLayer.model.Student</node>
+    <node x="0.0" y="79.0">DataLayer.model.Teacher</node>
+    <node x="173.0" y="227.0">DataLayer.model.EnrolledCourse</node>
+    <node x="303.0" y="523.0">DataLayer.model.Enrolment</node>
+    <node x="310.0" y="449.0">BusinessLogicLayer.validators.GrValidator</node>
+    <node x="463.0" y="449.0">BusinessLogicLayer.bll.TeacherBLL</node>
+    <node x="322.0" y="301.0">DataLayer.dao.TeacherDAO</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="DataLayer.model.Teacher" target="DataLayer.model.User">
+      <point x="0.0" y="-14.5" />
+      <point x="44.5" y="54.0" />
+      <point x="81.0" y="54.0" />
+      <point x="-17.75" y="14.5" />
+    </edge>
+    <edge source="DataLayer.model.Student" target="DataLayer.model.User">
+      <point x="0.0" y="-14.5" />
+      <point x="153.0" y="54.0" />
+      <point x="116.5" y="54.0" />
+      <point x="17.75" y="14.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.891462306993642" x="627.2511462047887" y="239.68568517575142" />
+  <SelectedNodes>
+    <node>BusinessLogicLayer.validators.AddressValidator</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

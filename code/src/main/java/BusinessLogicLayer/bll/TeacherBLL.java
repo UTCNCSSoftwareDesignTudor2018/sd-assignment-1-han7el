@@ -1,13 +1,16 @@
 package BusinessLogicLayer.bll;
 
+import BusinessLogicLayer.validators.*;
 import DataLayer.dao.CourseDAO;
 import DataLayer.dao.TeacherDAO;
 import DataLayer.model.Course;
+import DataLayer.model.Enrolment;
 import DataLayer.model.Teacher;
 import DataLayer.model.User;
 
 import java.lang.reflect.Array;
 import java.util.ArrayList;
+import java.util.List;
 
 /**
  * Created by Boros on 3/27/2018.
@@ -35,6 +38,9 @@ public class TeacherBLL {
     }
 
     public void updateTeacher(Teacher teacher){
+        for(Validator<User> sv: userBLL.getValidators()){
+            sv.validate(teacher);
+        }
         teacherDAO.updateTeacher(teacher);
     }
 
@@ -48,5 +54,9 @@ public class TeacherBLL {
 
     public ArrayList<Course> getAllCourses(){
         return courseDAO.getAllCourses();
+    }
+
+    public void createReport(Enrolment enrolment){
+        ReportCreator.createReport(enrolment);
     }
 }

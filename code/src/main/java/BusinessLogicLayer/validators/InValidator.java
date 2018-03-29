@@ -9,7 +9,7 @@ import DataLayer.model.Student;
 public class InValidator implements Validator<Student> {
     public void validate(Student student) {
         if(!Function.isNumeric(student.getIdentificationnumber())
-                && !Function.isWellFormed(student.getIdentificationnumber(),Function.IN_LENGTH,Function.STRONG)){
+                || !Function.isWellFormed(student.getIdentificationnumber(),Function.IN_LENGTH,Function.STRONG)){
             throw new IllegalArgumentException("Identification number is invalid for: " + student.getName());
         }
     }

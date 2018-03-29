@@ -35,110 +35,97 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="EnrolmentView.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/PresentationLayer/EnrolmentView.java">
+      <file leaf-file-name="Controller.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/PresentationLayer/controllers/Controller.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="282">
-              <caret line="60" column="8" lean-forward="true" selection-start-line="60" selection-start-column="8" selection-end-line="60" selection-end-column="75" />
+            <state relative-caret-position="299">
+              <caret line="28" selection-start-line="28" selection-end-line="28" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/DataLayer/model/User.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="49" selection-start-line="49" selection-end-line="49" />
+              <folding>
+                <element signature="e#358#359#0" expanded="true" />
+                <element signature="e#391#392#0" expanded="true" />
+                <element signature="e#898#899#0" expanded="true" />
+                <element signature="e#1501#1502#0" expanded="true" />
+                <element signature="e#1539#1540#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StudentController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/PresentationLayer/controllers/StudentController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1383#1384#0" expanded="true" />
+                <element signature="e#1425#1426#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="ProcessEnrolmentView.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/PresentationLayer/ProcessEnrolmentView.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/PresentationLayer/views/ProcessEnrolmentView.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="281">
-              <caret line="57" column="47" lean-forward="true" selection-start-line="57" selection-start-column="47" selection-end-line="57" selection-end-column="47" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ArrayList.java" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/util/ArrayList.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="417" selection-start-line="417" selection-end-line="417" />
-              <folding>
-                <element signature="e#15459#15460#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Enrolment.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/DataLayer/model/Enrolment.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="42" column="47" lean-forward="true" selection-start-line="42" selection-start-column="47" selection-end-line="42" selection-end-column="47" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EnrolledCourse.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/DataLayer/model/EnrolledCourse.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Course.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/DataLayer/model/Course.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="32" column="21" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CourseDAO.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/DataLayer/dao/CourseDAO.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="43" column="22" selection-start-line="43" selection-start-column="15" selection-end-line="43" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EnrolmentBLL.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/BusinessLogicLayer/bll/EnrolmentBLL.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="367">
-              <caret line="34" column="80" lean-forward="true" selection-start-line="34" selection-start-column="80" selection-end-line="34" selection-end-column="80" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TeacherBLL.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/BusinessLogicLayer/bll/TeacherBLL.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="282">
-              <caret line="49" column="31" selection-start-line="49" selection-start-column="31" selection-end-line="49" selection-end-column="31" />
-              <folding>
-                <element signature="e#1193#1194#0" expanded="true" />
-                <element signature="e#1214#1215#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="378">
+              <caret line="73" column="5" lean-forward="true" selection-start-line="73" selection-start-column="5" selection-end-line="73" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="TeacherController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/PresentationLayer/TeacherController.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/PresentationLayer/controllers/TeacherController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="452">
-              <caret line="59" column="33" selection-start-line="59" selection-start-column="33" selection-end-line="59" selection-end-column="33" />
+            <state relative-caret-position="51">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EnrolmentTeacherView.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/PresentationLayer/views/EnrolmentTeacherView.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="108" column="38" selection-start-line="108" selection-start-column="38" selection-end-line="108" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1011#1012#0" expanded="true" />
-                <element signature="e#1061#1062#0" expanded="true" />
-                <element signature="e#1289#1290#0" expanded="true" />
-                <element signature="e#1338#1339#0" expanded="true" />
-                <element signature="e#1574#1575#0" expanded="true" />
-                <element signature="e#1603#1604#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EnrolmentStudentView.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/PresentationLayer/views/EnrolmentStudentView.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="395">
+              <caret line="34" column="58" lean-forward="true" selection-start-line="34" selection-start-column="58" selection-end-line="34" selection-end-column="58" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StudentView.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/PresentationLayer/views/StudentView.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="497">
+              <caret line="44" column="17" selection-start-line="44" selection-start-column="17" selection-end-line="44" selection-end-column="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -157,24 +144,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/BusinessLogicLayer/main.java" />
-        <option value="$PROJECT_DIR$/src/main/java/DataLayer/connection/ConnectionFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/DataLayer/model/Student.java" />
-        <option value="$PROJECT_DIR$/src/main/java/DataLayer/model/User.java" />
-        <option value="$PROJECT_DIR$/src/main/java/DataLayer/model/Teacher.java" />
-        <option value="$PROJECT_DIR$/src/main/java/BusinessLogicLayer/validators/Validator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/BusinessLogicLayer/functions/Functions.java" />
-        <option value="$PROJECT_DIR$/src/main/java/BusinessLogicLayer/validators/UserValidator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/BusinessLogicLayer/validators/StudentValidator.java" />
         <option value="$PROJECT_DIR$/src/main/java/DataLayer/model/EnrolledCourse.java" />
-        <option value="$PROJECT_DIR$/src/main/java/BusinessLogicLayer/bll/ReportCreator.java" />
         <option value="$PROJECT_DIR$/src/main/java/BusinessLogicLayer/bll/EnrolmentBLL.java" />
-        <option value="$PROJECT_DIR$/src/main/java/BusinessLogicLayer/validators/GnValidator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/BusinessLogicLayer/validators/CnpValidator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/BusinessLogicLayer/validators/IcnValidator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/BusinessLogicLayer/validators/InValidator.java" />
         <option value="$PROJECT_DIR$/src/main/java/BusinessLogicLayer/validators/AddressValidator.java" />
-        <option value="$PROJECT_DIR$/src/test/java/DatabaseTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/BusinessLogicLayer/validators/NameValidator.java" />
         <option value="$PROJECT_DIR$/src/main/java/BusinessLogicLayer/validators/UsernameValidator.java" />
         <option value="$PROJECT_DIR$/src/main/java/PresentationLayer/EditProfileView.form" />
@@ -183,31 +155,46 @@
         <option value="$PROJECT_DIR$/src/main/java/start/Start.java" />
         <option value="$PROJECT_DIR$/src/main/java/PresentationLayer/Constants.java" />
         <option value="$PROJECT_DIR$/src/main/java/BusinessLogicLayer/functions/Function.java" />
-        <option value="$PROJECT_DIR$/src/main/java/PresentationLayer/StudentController.java" />
         <option value="$PROJECT_DIR$/src/main/java/PresentationLayer/LoginView.java" />
-        <option value="$PROJECT_DIR$/src/main/java/PresentationLayer/Controller.java" />
-        <option value="$PROJECT_DIR$/src/main/java/BusinessLogicLayer/bll/StudentBLL.java" />
-        <option value="$PROJECT_DIR$/src/main/java/BusinessLogicLayer/bll/UserBLL.java" />
-        <option value="$PROJECT_DIR$/src/main/java/DataLayer/dao/UserDAO.java" />
         <option value="$PROJECT_DIR$/src/main/java/PresentationLayer/TeacherView.form" />
-        <option value="$PROJECT_DIR$/src/main/java/DataLayer/dao/TeacherDAO.java" />
         <option value="$PROJECT_DIR$/src/main/java/PresentationLayer/AddNewStudentView.form" />
-        <option value="$PROJECT_DIR$/src/main/java/PresentationLayer/StudentView.java" />
         <option value="$PROJECT_DIR$/src/main/java/PresentationLayer/AddNewStudentView.java" />
         <option value="$PROJECT_DIR$/src/main/java/PresentationLayer/StudentView.form" />
         <option value="$PROJECT_DIR$/src/main/java/PresentationLayer/EnrolmentView.form" />
-        <option value="$PROJECT_DIR$/src/main/java/PresentationLayer/TeacherView.java" />
-        <option value="$PROJECT_DIR$/src/main/java/DataLayer/dao/StudentDAO.java" />
         <option value="$PROJECT_DIR$/src/main/java/PresentationLayer/EnrolmentView.java" />
         <option value="$PROJECT_DIR$/src/main/java/DataLayer/model/Enrolment.java" />
         <option value="$PROJECT_DIR$/src/main/java/DataLayer/dao/EnrolmentDAO.java" />
-        <option value="$PROJECT_DIR$/src/main/java/BusinessLogicLayer/bll/TeacherBLL.java" />
-        <option value="$PROJECT_DIR$/src/main/java/PresentationLayer/TeacherController.java" />
         <option value="$PROJECT_DIR$/src/main/java/DataLayer/dao/CourseDAO.java" />
         <option value="$PROJECT_DIR$/src/main/java/PresentationLayer/ProcessEnrolmentView.form" />
         <option value="$PROJECT_DIR$/src/main/java/DataLayer/model/Course.java" />
-        <option value="$PROJECT_DIR$/src/main/java/BusinessLogicLayer/validators/GrValidator.java" />
         <option value="$PROJECT_DIR$/src/main/java/PresentationLayer/ProcessEnrolmentView.java" />
+        <option value="$PROJECT_DIR$/src/main/java/BusinessLogicLayer/validators/GrValidator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/DataLayer/dao/StudentDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/BusinessLogicLayer/validators/InValidator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/BusinessLogicLayer/validators/CnpValidator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/BusinessLogicLayer/validators/GnValidator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/BusinessLogicLayer/validators/IcnValidator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/DataLayer/dao/UserDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/PresentationLayer/Controller.java" />
+        <option value="$PROJECT_DIR$/src/main/java/DataLayer/dao/TeacherDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/PresentationLayer/StudentController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/BusinessLogicLayer/bll/StudentBLL.java" />
+        <option value="$PROJECT_DIR$/src/main/java/PresentationLayer/EnrolmentTeacherView.form" />
+        <option value="$PROJECT_DIR$/src/main/java/DataLayer/model/Student.java" />
+        <option value="$PROJECT_DIR$/src/main/java/BusinessLogicLayer/bll/ReportCreator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/PresentationLayer/EnrolmentTeacherView.java" />
+        <option value="$PROJECT_DIR$/src/main/java/PresentationLayer/EnrolmentStudentView.form" />
+        <option value="$PROJECT_DIR$/src/main/java/PresentationLayer/EnrolmentStudentView.java" />
+        <option value="$PROJECT_DIR$/src/main/java/PresentationLayer/StudentView.java" />
+        <option value="$PROJECT_DIR$/src/main/java/PresentationLayer/TeacherView.java" />
+        <option value="$PROJECT_DIR$/src/main/java/BusinessLogicLayer/bll/UserBLL.java" />
+        <option value="$PROJECT_DIR$/src/main/java/BusinessLogicLayer/bll/TeacherBLL.java" />
+        <option value="$PROJECT_DIR$/src/main/java/PresentationLayer/TeacherController.java" />
+        <option value="$PROJECT_DIR$/src/test/java/DatabaseTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/PresentationLayer/controllers/TeacherController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/PresentationLayer/views/EnrolmentStudentView.java" />
+        <option value="$PROJECT_DIR$/src/main/java/PresentationLayer/controllers/StudentController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/PresentationLayer/views/ProcessEnrolmentView.java" />
       </list>
     </option>
   </component>
@@ -224,10 +211,11 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="width" value="977" />
-    <option name="height" value="1038" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-10" />
+    <option name="y" value="-10" />
+    <option name="width" value="1939" />
+    <option name="height" value="1049" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -266,7 +254,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="BusinessLogicLayer" type="462c0819:PsiDirectoryNode" />
+              <item name="PresentationLayer" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Assignment1" type="b2602c69:ProjectViewProjectNode" />
@@ -274,8 +262,8 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="BusinessLogicLayer" type="462c0819:PsiDirectoryNode" />
-              <item name="bll" type="462c0819:PsiDirectoryNode" />
+              <item name="PresentationLayer" type="462c0819:PsiDirectoryNode" />
+              <item name="controllers" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Assignment1" type="b2602c69:ProjectViewProjectNode" />
@@ -283,8 +271,8 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="BusinessLogicLayer" type="462c0819:PsiDirectoryNode" />
-              <item name="functions" type="462c0819:PsiDirectoryNode" />
+              <item name="PresentationLayer" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Assignment1" type="b2602c69:ProjectViewProjectNode" />
@@ -292,34 +280,9 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="DataLayer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Assignment1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="A1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="DataLayer" type="462c0819:PsiDirectoryNode" />
-              <item name="connection" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Assignment1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="A1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="DataLayer" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Assignment1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="A1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="DataLayer" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
+              <item name="PresentationLayer" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="ProcessEnrolmentView" type="e9f4de52:FormNode" />
             </path>
             <path>
               <item name="Assignment1" type="b2602c69:ProjectViewProjectNode" />
@@ -328,19 +291,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="start" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Assignment1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="A1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Assignment1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="A1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -354,14 +304,17 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
-    <property name="last_opened_file_path" value="$USER_HOME$/OneDrive - student.utcluj.ro/University/year_2/year_2_sem_2/JavaProjects/Homework3" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../copy/A1" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
-    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="H:\Year_3\SEM2\SD\Assigments\A1\src\main\java\PresentationLayer\views" />
+      <recent name="H:\Year_3\SEM2\SD\Assigments\A1\src\umldiagrams" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="PresentationLayer" />
     </key>
@@ -388,7 +341,8 @@
     <configuration name="DatabaseTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DatabaseTest" />
       <module name="Assignment1" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
     </configuration>
     <configuration name="EditProfileView" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="PresentationLayer.EditProfileView" />
@@ -396,7 +350,7 @@
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="PresentationLayer.*" />
+          <option name="PATTERN" value="PresentationLayer.controllers.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -645,8 +599,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Start" />
-        <item itemvalue="Application.EditProfileView" />
         <item itemvalue="Application.DatabaseTest" />
+        <item itemvalue="Application.EditProfileView" />
         <item itemvalue="Application.main" />
       </list>
     </recent_temporary>
@@ -661,16 +615,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1521703205757</updated>
-      <workItem from="1522222504126" duration="33308000" />
+      <workItem from="1522222504126" duration="53950000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33308000" />
+    <option name="totallyTimeSpent" value="53950000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1551" height="839" extended-state="0" />
     <layout>
       <window_info anchor="right" id="Palette" order="6" />
       <window_info anchor="bottom" id="TODO" order="9" />
@@ -682,12 +635,12 @@
       <window_info anchor="right" id="Maven Projects" order="5" />
       <window_info anchor="bottom" id="Database Changes" order="1" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="4" visible="true" weight="0.3337931" />
+      <window_info anchor="bottom" id="Run" order="4" weight="0.29476583" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.32965517" />
       <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Database Console" order="0" weight="0.32827586" />
       <window_info anchor="right" id="Designer" order="7" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.24869792" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.24853611" />
       <window_info anchor="right" id="Database" order="1" />
       <window_info anchor="bottom" id="Find" order="3" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
@@ -721,12 +674,13 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/DatabaseTest.java</url>
-          <line>23</line>
+          <url>file://$PROJECT_DIR$/src/main/java/PresentationLayer/controllers/Controller.java</url>
+          <line>27</line>
           <properties />
+          <option name="timeStamp" value="11" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="8" />
+      <option name="time" value="12" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
@@ -739,131 +693,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/BusinessLogicLayer/validators/UserValidator.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/BusinessLogicLayer/validators/StudentValidator.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/BusinessLogicLayer/validators/Validator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/BusinessLogicLayer/bll/ReportCreator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="20" column="58" selection-start-line="20" selection-start-column="58" selection-end-line="20" selection-end-column="58" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/BusinessLogicLayer/validators/GnValidator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/BusinessLogicLayer/validators/IcnValidator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/BusinessLogicLayer/validators/InValidator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/BusinessLogicLayer/validators/AddressValidator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="10" column="63" selection-start-line="10" selection-start-column="63" selection-end-line="10" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/BusinessLogicLayer/validators/UsernameValidator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/BusinessLogicLayer/validators/NameValidator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/BusinessLogicLayer/validators/CnpValidator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assignment1.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="38" selection-start-column="38" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/DataLayer/connection/ConnectionFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="19" column="43" lean-forward="true" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/9214dd29-b94d-4cc8-803b-e6daec176384/console.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/DatabaseTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/PresentationLayer/LoginView.form">
-      <provider selected="true" editor-type-id="ui-designer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/PresentationLayer/EditProfileView.form">
-      <provider selected="true" editor-type-id="ui-designer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/PresentationLayer/EditProfileView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="33" column="5" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/start/Start.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="62" lean-forward="true" selection-start-line="10" selection-start-column="62" selection-end-line="10" selection-end-column="62" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/PresentationLayer/Constants.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -878,155 +707,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/BusinessLogicLayer/bll/UserBLL.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="27" column="42" lean-forward="true" selection-start-line="27" selection-start-column="42" selection-end-line="27" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/PresentationLayer/TeacherView.form">
+    <entry file="file://$PROJECT_DIR$/src/main/java/PresentationLayer/views/TeacherView.form">
       <provider selected="true" editor-type-id="ui-designer" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/PresentationLayer/AddNewStudentView.form">
-      <provider selected="true" editor-type-id="ui-designer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/PresentationLayer/Controller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="27" column="31" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/PresentationLayer/AddNewStudentView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="30" column="73" lean-forward="true" selection-start-line="30" selection-start-column="73" selection-end-line="30" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/DataLayer/dao/UserDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="135" column="79" lean-forward="true" selection-start-line="135" selection-start-column="79" selection-end-line="135" selection-end-column="79" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/DataLayer/dao/TeacherDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1537">
-          <caret line="37" column="76" lean-forward="true" selection-start-line="37" selection-start-column="76" selection-end-line="37" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/PresentationLayer/LoginView.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/PresentationLayer/views/LoginView.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="203">
           <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/PresentationLayer/EnrolmentView.form">
-      <provider selected="true" editor-type-id="ui-designer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/PresentationLayer/StudentController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="42" column="5" lean-forward="true" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/PresentationLayer/TeacherView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1530">
-          <caret line="90" column="53" selection-start-line="90" selection-start-column="53" selection-end-line="90" selection-end-column="53" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3029#3030#0" expanded="true" />
-            <element signature="e#3101#3102#0" expanded="true" />
-            <element signature="e#3264#3265#0" expanded="true" />
-            <element signature="e#3314#3315#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/BusinessLogicLayer/bll/StudentBLL.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="51" column="32" lean-forward="true" selection-start-line="51" selection-start-column="32" selection-end-line="51" selection-end-column="32" />
-          <folding>
-            <element signature="e#1215#1216#0" expanded="true" />
-            <element signature="e#1273#1274#0" expanded="true" />
-            <element signature="e#1420#1421#0" expanded="true" />
-            <element signature="e#1469#1470#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/DataLayer/model/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="84" column="16" selection-start-line="84" selection-start-column="16" selection-end-line="84" selection-end-column="16" />
-          <folding>
-            <element signature="e#358#359#0" expanded="true" />
-            <element signature="e#391#392#0" expanded="true" />
-            <element signature="e#1501#1502#0" expanded="true" />
-            <element signature="e#1539#1540#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/DataLayer/dao/StudentDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="104" column="33" selection-start-line="104" selection-start-column="33" selection-end-line="104" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/PresentationLayer/StudentView.form">
-      <provider selected="true" editor-type-id="ui-designer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/DataLayer/dao/EnrolmentDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/PresentationLayer/StudentView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-296">
-          <caret line="19" column="32" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/BusinessLogicLayer/bll/TeacherBLL.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="49" column="31" selection-start-line="49" selection-start-column="31" selection-end-line="49" selection-end-column="31" />
-          <folding>
-            <element signature="e#1193#1194#0" expanded="true" />
-            <element signature="e#1214#1215#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/DataLayer/dao/CourseDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="43" column="22" selection-start-line="43" selection-start-column="15" selection-end-line="43" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -1044,48 +734,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/PresentationLayer/TeacherController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="452">
-          <caret line="59" column="33" selection-start-line="59" selection-start-column="33" selection-end-line="59" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1011#1012#0" expanded="true" />
-            <element signature="e#1061#1062#0" expanded="true" />
-            <element signature="e#1289#1290#0" expanded="true" />
-            <element signature="e#1338#1339#0" expanded="true" />
-            <element signature="e#1574#1575#0" expanded="true" />
-            <element signature="e#1603#1604#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/BusinessLogicLayer/validators/GrValidator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="13" column="39" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/PresentationLayer/ProcessEnrolmentView.form">
+    <entry file="file://$PROJECT_DIR$/src/main/java/PresentationLayer/views/ProcessEnrolmentView.form">
       <provider selected="true" editor-type-id="ui-designer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/BusinessLogicLayer/bll/EnrolmentBLL.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
-          <caret line="34" column="80" lean-forward="true" selection-start-line="34" selection-start-column="80" selection-end-line="34" selection-end-column="80" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/PresentationLayer/EnrolmentView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="60" column="8" lean-forward="true" selection-start-line="60" selection-start-column="8" selection-end-line="60" selection-end-column="75" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/DataLayer/model/Enrolment.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1104,16 +754,994 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/PresentationLayer/ProcessEnrolmentView.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/time/format/DateTimeFormatter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="57" column="47" lean-forward="true" selection-start-line="57" selection-start-column="47" selection-end-line="57" selection-end-column="47" />
+        <state relative-caret-position="145">
+          <caret line="1850" selection-start-line="1850" selection-end-line="1850" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/BusinessLogicLayer/validators/AddressValidator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="10" column="63" selection-start-line="10" selection-start-column="63" selection-end-line="10" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/BusinessLogicLayer/validators/NameValidator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/BusinessLogicLayer/validators/UsernameValidator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/BusinessLogicLayer/validators/CnpValidator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/BusinessLogicLayer/validators/GnValidator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/BusinessLogicLayer/validators/IcnValidator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/PresentationLayer/views/AddNewStudentView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="50" column="62" lean-forward="true" selection-start-line="50" selection-start-column="62" selection-end-line="50" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/BusinessLogicLayer/bll/EnrolmentBLL.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="30" column="13" lean-forward="true" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/BusinessLogicLayer/validators/GrValidator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="13" column="74" selection-start-line="13" selection-start-column="74" selection-end-line="13" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/DataLayer/dao/UserDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="136" column="48" lean-forward="true" selection-start-line="136" selection-start-column="48" selection-end-line="136" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/BusinessLogicLayer/validators/InValidator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/DataLayer/dao/EnrolmentDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="22" column="68" lean-forward="true" selection-start-line="22" selection-start-column="68" selection-end-line="22" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/DataLayer/dao/TeacherDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/PresentationLayer/views/StudentView.form">
+      <provider selected="true" editor-type-id="ui-designer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/DataLayer/model/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="367">
+          <caret line="39" column="34" selection-start-line="39" selection-start-column="34" selection-end-line="39" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/BusinessLogicLayer/bll/ReportCreator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="26" column="97" selection-start-line="26" selection-start-column="97" selection-end-line="26" selection-end-column="97" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/PresentationLayer/views/EnrolmentTeacherView.form">
+      <provider selected="true" editor-type-id="ui-designer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/DataLayer/dao/StudentDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="57" column="63" lean-forward="true" selection-start-line="57" selection-start-column="63" selection-end-line="57" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/PresentationLayer/views/EnrolmentStudentView.form">
+      <provider selected="true" editor-type-id="ui-designer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/PresentationLayer/views/TeacherView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="58" column="61" selection-start-line="58" selection-start-column="61" selection-end-line="58" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/PresentationLayer/views/AddNewStudentView.form">
+      <provider selected="true" editor-type-id="ui-designer" />
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/modules.uml">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>MODULES</ID>
+          <OriginalElement />
+          <nodes />
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="0.0" y="0.0" />
+          <SelectedNodes />
+          <Categories />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/umldiagrams/ClassDiagram.uml">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement />
+          <nodes>
+            <node x="14.049999999999955" y="169.0">BusinessLogicLayer.validators.AddressValidator</node>
+            <node x="1301.5926587301587" y="169.0">BusinessLogicLayer.validators.UsernameValidator</node>
+            <node x="458.04999999999995" y="169.0">BusinessLogicLayer.validators.IcnValidator</node>
+            <node x="310.04999999999995" y="169.0">BusinessLogicLayer.validators.NameValidator</node>
+            <node x="173.04999999999995" y="169.0">BusinessLogicLayer.validators.CnpValidator</node>
+            <node x="630.0999999999999" y="0.0">DataLayer.model.User</node>
+            <node x="1297.7998580220515" y="596.0">DataLayer.dao.EnrolmentDAO</node>
+            <node x="1550.985229540917" y="437.0">DataLayer.dao.CourseDAO</node>
+            <node x="831.0352295409172" y="1112.0">PresentationLayer.Controller</node>
+            <node x="1023.8831913553848" y="318.0">BusinessLogicLayer.validators.InValidator</node>
+            <node x="496.59772954091716" y="596.0">BusinessLogicLayer.bll.UserBLL</node>
+            <node x="1524.9498015873014" y="318.0">DataLayer.model.Course</node>
+            <node x="1024.9150793650797" y="1023.0">PresentationLayer.StudentView</node>
+            <node x="926.105413577607" y="785.0">BusinessLogicLayer.bll.StudentBLL</node>
+            <node x="1793.7105723077657" y="1023.0">PresentationLayer.TeacherView</node>
+            <node x="719.05" y="318.0">DataLayer.dao.StudentDAO</node>
+            <node x="602.05" y="437.0">DataLayer.dao.UserDAO</node>
+            <node x="892.8831913553848" y="318.0">BusinessLogicLayer.validators.GnValidator</node>
+            <node x="857.5352295409172" y="944.0">PresentationLayer.StudentController</node>
+            <node x="1421.0977295409173" y="944.0">PresentationLayer.TeacherController</node>
+            <node x="1316.2485231917103" y="785.0">BusinessLogicLayer.bll.EnrolmentBLL</node>
+            <node x="992.4944444444443" y="169.0">DataLayer.model.Student</node>
+            <node x="1808.4941581123458" y="318.0">DataLayer.model.Teacher</node>
+            <node x="1352.264396207584" y="437.0">DataLayer.model.EnrolledCourse</node>
+            <node x="1172.883191355385" y="596.0">DataLayer.model.Enrolment</node>
+            <node x="1445.7998580220515" y="596.0">BusinessLogicLayer.validators.GrValidator</node>
+            <node x="1693.0049603174607" y="785.0">BusinessLogicLayer.bll.TeacherBLL</node>
+            <node x="1745.485229540917" y="437.0">DataLayer.dao.TeacherDAO</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="DataLayer.model.EnrolledCourse" target="DataLayer.model.Course">
+              <point x="32.0" y="-14.5" />
+              <point x="1448.264396207584" y="387.0" />
+              <point x="1551.1998015873014" y="387.0" />
+              <point x="-15.75" y="14.5" />
+            </edge>
+            <edge source="DataLayer.dao.EnrolmentDAO" target="DataLayer.dao.CourseDAO">
+              <point x="32.0" y="-14.5" />
+              <point x="1393.7998580220515" y="566.0" />
+              <point x="1564.610229540917" y="566.0" />
+              <point x="-40.875" y="14.5" />
+            </edge>
+            <edge source="BusinessLogicLayer.bll.StudentBLL" target="BusinessLogicLayer.validators.GnValidator">
+              <point x="35.66666666666674" y="-14.5" />
+              <point x="1015.2720802442738" y="695.0" />
+              <point x="948.3831913553848" y="695.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="BusinessLogicLayer.bll.UserBLL" target="DataLayer.model.User">
+              <point x="16.6875" y="-14.5" />
+              <point x="557.7852295409172" y="556.0" />
+              <point x="591.55" y="556.0" />
+              <point x="591.55" y="129.0" />
+              <point x="656.7249999999999" y="129.0" />
+              <point x="-8.875" y="14.5" />
+            </edge>
+            <edge source="BusinessLogicLayer.bll.StudentBLL" target="DataLayer.dao.StudentDAO">
+              <point x="-11.888888888888914" y="-14.5" />
+              <point x="967.7165246887181" y="735.0" />
+              <point x="776.05" y="735.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="BusinessLogicLayer.bll.StudentBLL" target="BusinessLogicLayer.bll.UserBLL">
+              <point x="-47.55555555555554" y="-14.5" />
+              <point x="932.0498580220515" y="765.0" />
+              <point x="546.6602295409172" y="765.0" />
+              <point x="5.5625" y="14.5" />
+            </edge>
+            <edge source="BusinessLogicLayer.validators.InValidator" target="DataLayer.model.Student">
+              <point x="0.0" y="-14.5" />
+              <point x="1076.883191355385" y="298.0" />
+              <point x="1039.2444444444443" y="298.0" />
+              <point x="2.75" y="14.5" />
+            </edge>
+            <edge source="BusinessLogicLayer.bll.TeacherBLL" target="BusinessLogicLayer.bll.UserBLL">
+              <point x="-36.0" y="-14.5" />
+              <point x="1711.0049603174607" y="675.0" />
+              <point x="580.0352295409172" y="675.0" />
+              <point x="38.9375" y="14.5" />
+            </edge>
+            <edge source="DataLayer.dao.EnrolmentDAO" target="DataLayer.model.EnrolledCourse">
+              <point x="-32.0" y="-14.5" />
+              <point x="1329.7998580220515" y="536.0" />
+              <point x="1409.864396207584" y="536.0" />
+              <point x="-6.399999999999977" y="14.5" />
+            </edge>
+            <edge source="BusinessLogicLayer.bll.TeacherBLL" target="DataLayer.dao.CourseDAO">
+              <point x="-12.0" y="-14.5" />
+              <point x="1735.0049603174607" y="655.0" />
+              <point x="1641.9424603174607" y="655.0" />
+              <point x="1641.9424603174607" y="576.0" />
+              <point x="1646.360229540917" y="576.0" />
+              <point x="40.875" y="14.5" />
+            </edge>
+            <edge source="PresentationLayer.StudentController" target="DataLayer.model.EnrolledCourse">
+              <point x="35.25" y="-14.5" />
+              <point x="963.2852295409172" y="904.0" />
+              <point x="1091.258191355385" y="904.0" />
+              <point x="1091.258191355385" y="496.0" />
+              <point x="1358.6643962075839" y="496.0" />
+              <point x="-57.60000000000002" y="14.5" />
+            </edge>
+            <edge source="DataLayer.dao.UserDAO" target="DataLayer.dao.StudentDAO">
+              <point x="19.200000000000045" y="-14.5" />
+              <point x="669.25" y="397.0" />
+              <point x="738.05" y="397.0" />
+              <point x="-38.0" y="14.5" />
+            </edge>
+            <edge source="BusinessLogicLayer.validators.NameValidator" target="DataLayer.model.User">
+              <point x="0.0" y="-14.5" />
+              <point x="374.04999999999995" y="99.0" />
+              <point x="646.0749999999998" y="99.0" />
+              <point x="-19.52500000000009" y="14.5" />
+            </edge>
+            <edge source="PresentationLayer.StudentView" target="PresentationLayer.StudentController">
+              <point x="-42.75" y="-14.5" />
+              <point x="1039.1650793650797" y="1003.0" />
+              <point x="928.0352295409172" y="1003.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="PresentationLayer.Controller" target="PresentationLayer.TeacherController">
+              <point x="28.57142857142867" y="-14.5" />
+              <point x="909.6066581123458" y="1082.0" />
+              <point x="1444.7643962075838" y="1082.0" />
+              <point x="-47.333333333333314" y="14.5" />
+            </edge>
+            <edge source="PresentationLayer.StudentController" target="BusinessLogicLayer.bll.UserBLL">
+              <point x="-49.34999999999991" y="-14.5" />
+              <point x="878.6852295409172" y="914.0" />
+              <point x="524.3477295409172" y="914.0" />
+              <point x="-16.6875" y="14.5" />
+            </edge>
+            <edge source="BusinessLogicLayer.validators.AddressValidator" target="DataLayer.model.User">
+              <point x="0.0" y="-14.5" />
+              <point x="83.54999999999995" y="79.0" />
+              <point x="638.9749999999999" y="79.0" />
+              <point x="-26.625" y="14.5" />
+            </edge>
+            <edge source="PresentationLayer.TeacherController" target="BusinessLogicLayer.bll.EnrolmentBLL">
+              <point x="-15.214285714285722" y="-14.5" />
+              <point x="1476.8834438266315" y="844.0" />
+              <point x="1391.2485231917103" y="844.0" />
+              <point x="15.0" y="14.5" />
+            </edge>
+            <edge source="PresentationLayer.TeacherView" target="PresentationLayer.TeacherController">
+              <point x="-43.125" y="-14.5" />
+              <point x="1808.0855723077657" y="1003.0" />
+              <point x="1492.0977295409173" y="1003.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="DataLayer.model.Teacher" target="DataLayer.model.User">
+              <point x="22.25" y="-14.5" />
+              <point x="1875.2441581123458" y="298.0" />
+              <point x="1868.8263888888894" y="298.0" />
+              <point x="1868.8263888888894" y="69.0" />
+              <point x="692.2249999999999" y="69.0" />
+              <point x="26.625" y="14.5" />
+            </edge>
+            <edge source="PresentationLayer.Controller" target="PresentationLayer.TeacherView">
+              <point x="42.85714285714289" y="-14.5" />
+              <point x="923.89237239806" y="1092.0" />
+              <point x="1851.2105723077657" y="1092.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="DataLayer.model.Student" target="DataLayer.model.User">
+              <point x="22.0" y="-14.5" />
+              <point x="1058.4944444444443" y="109.0" />
+              <point x="678.0249999999999" y="109.0" />
+              <point x="12.424999999999955" y="14.5" />
+            </edge>
+            <edge source="BusinessLogicLayer.bll.StudentBLL" target="DataLayer.model.Student">
+              <point x="11.888888888888914" y="-14.5" />
+              <point x="991.4943024664959" y="715.0" />
+              <point x="871.3831913553848" y="715.0" />
+              <point x="871.3831913553848" y="278.0" />
+              <point x="1022.7444444444443" y="278.0" />
+              <point x="-13.75" y="14.5" />
+            </edge>
+            <edge source="DataLayer.dao.StudentDAO" target="DataLayer.model.User">
+              <point x="-38.0" y="-14.5" />
+              <point x="738.05" y="218.0" />
+              <point x="743.0076501758372" y="218.0" />
+              <point x="743.0076501758372" y="129.0" />
+              <point x="670.925" y="129.0" />
+              <point x="5.3250000000000455" y="14.5" />
+            </edge>
+            <edge source="DataLayer.model.Enrolment" target="DataLayer.model.Course">
+              <point x="-8.5" y="-14.5" />
+              <point x="1215.383191355385" y="367.0" />
+              <point x="1530.1998015873014" y="367.0" />
+              <point x="-36.75" y="14.5" />
+            </edge>
+            <edge source="DataLayer.dao.CourseDAO" target="DataLayer.model.Course">
+              <point x="27.25" y="-14.5" />
+              <point x="1632.735229540917" y="387.0" />
+              <point x="1582.6998015873014" y="387.0" />
+              <point x="15.75" y="14.5" />
+            </edge>
+            <edge source="PresentationLayer.Controller" target="BusinessLogicLayer.bll.UserBLL">
+              <point x="-28.57142857142867" y="-14.5" />
+              <point x="852.4638009694885" y="1082.0" />
+              <point x="502.34772954091716" y="1082.0" />
+              <point x="-38.9375" y="14.5" />
+            </edge>
+            <edge source="DataLayer.dao.EnrolmentDAO" target="DataLayer.model.Course">
+              <point x="10.666666666666686" y="-14.5" />
+              <point x="1372.4665246887182" y="556.0" />
+              <point x="1490.764396207584" y="556.0" />
+              <point x="1490.764396207584" y="397.0" />
+              <point x="1561.6998015873014" y="397.0" />
+              <point x="-5.25" y="14.5" />
+            </edge>
+            <edge source="DataLayer.dao.UserDAO" target="DataLayer.model.Student">
+              <point x="0.0" y="-14.5" />
+              <point x="650.05" y="417.0" />
+              <point x="641.8499999999999" y="417.0" />
+              <point x="641.8499999999999" y="228.0" />
+              <point x="995.2444444444443" y="228.0" />
+              <point x="-41.25" y="14.5" />
+            </edge>
+            <edge source="BusinessLogicLayer.bll.EnrolmentBLL" target="DataLayer.model.Student">
+              <point x="-51.428571428571445" y="-14.5" />
+              <point x="1324.8199517631388" y="755.0" />
+              <point x="1162.383191355385" y="755.0" />
+              <point x="1162.383191355385" y="258.0" />
+              <point x="1061.2444444444443" y="258.0" />
+              <point x="24.75" y="14.5" />
+            </edge>
+            <edge source="PresentationLayer.TeacherController" target="DataLayer.model.Teacher">
+              <point x="45.64285714285711" y="-14.5" />
+              <point x="1537.7405866837744" y="904.0" />
+              <point x="1881.985229540917" y="904.0" />
+              <point x="1881.985229540917" y="407.0" />
+              <point x="1858.5566581123458" y="407.0" />
+              <point x="5.5625" y="14.5" />
+            </edge>
+            <edge source="BusinessLogicLayer.validators.GnValidator" target="DataLayer.model.Student">
+              <point x="0.0" y="-14.5" />
+              <point x="948.3831913553848" y="298.0" />
+              <point x="1033.7444444444443" y="298.0" />
+              <point x="-2.75" y="14.5" />
+            </edge>
+            <edge source="BusinessLogicLayer.bll.TeacherBLL" target="DataLayer.model.Teacher">
+              <point x="36.0" y="-14.5" />
+              <point x="1783.0049603174607" y="755.0" />
+              <point x="1870.985229540917" y="755.0" />
+              <point x="1870.985229540917" y="417.0" />
+              <point x="1847.4316581123458" y="417.0" />
+              <point x="-5.5625" y="14.5" />
+            </edge>
+            <edge source="PresentationLayer.TeacherController" target="DataLayer.model.Enrolment">
+              <point x="-35.5" y="-14.5" />
+              <point x="1456.5977295409173" y="864.0" />
+              <point x="1201.8117627839563" y="864.0" />
+              <point x="1201.8117627839563" y="765.0" />
+              <point x="1189.883191355385" y="765.0" />
+              <point x="-34.0" y="14.5" />
+            </edge>
+            <edge source="BusinessLogicLayer.validators.GrValidator" target="DataLayer.model.EnrolledCourse">
+              <point x="0.0" y="-14.5" />
+              <point x="1499.7998580220515" y="546.0" />
+              <point x="1435.4643962075838" y="546.0" />
+              <point x="19.200000000000045" y="14.5" />
+            </edge>
+            <edge source="DataLayer.dao.StudentDAO" target="DataLayer.model.Student">
+              <point x="0.0" y="-14.5" />
+              <point x="776.05" y="238.0" />
+              <point x="1000.7444444444443" y="238.0" />
+              <point x="-35.75" y="14.5" />
+            </edge>
+            <edge source="BusinessLogicLayer.bll.StudentBLL" target="DataLayer.model.User">
+              <point x="-23.77777777777783" y="-14.5" />
+              <point x="955.8276357998292" y="745.0" />
+              <point x="708.55" y="745.0" />
+              <point x="708.55" y="139.0" />
+              <point x="667.375" y="139.0" />
+              <point x="1.775000000000091" y="14.5" />
+            </edge>
+            <edge source="DataLayer.dao.TeacherDAO" target="DataLayer.model.Teacher">
+              <point x="38.33333333333334" y="-14.5" />
+              <point x="1841.3185628742503" y="417.0" />
+              <point x="1836.3066581123458" y="417.0" />
+              <point x="-16.6875" y="14.5" />
+            </edge>
+            <edge source="DataLayer.dao.TeacherDAO" target="DataLayer.model.User">
+              <point x="-38.33333333333337" y="-14.5" />
+              <point x="1764.6518962075838" y="397.0" />
+              <point x="1754.4409722222226" y="397.0" />
+              <point x="1754.4409722222226" y="89.0" />
+              <point x="685.125" y="89.0" />
+              <point x="19.52500000000009" y="14.5" />
+            </edge>
+            <edge source="BusinessLogicLayer.validators.IcnValidator" target="DataLayer.model.User">
+              <point x="0.0" y="-14.5" />
+              <point x="514.05" y="109.0" />
+              <point x="649.625" y="109.0" />
+              <point x="-15.974999999999909" y="14.5" />
+            </edge>
+            <edge source="BusinessLogicLayer.bll.EnrolmentBLL" target="DataLayer.model.EnrolledCourse">
+              <point x="34.285714285714334" y="-14.5" />
+              <point x="1410.5342374774245" y="755.0" />
+              <point x="1564.2998580220515" y="755.0" />
+              <point x="1564.2998580220515" y="536.0" />
+              <point x="1448.264396207584" y="536.0" />
+              <point x="32.0" y="14.5" />
+            </edge>
+            <edge source="BusinessLogicLayer.bll.TeacherBLL" target="DataLayer.model.User">
+              <point x="48.0" y="-14.5" />
+              <point x="1795.0049603174607" y="765.0" />
+              <point x="1927.6593366837742" y="765.0" />
+              <point x="1927.6593366837742" y="59.0" />
+              <point x="695.7749999999999" y="59.0" />
+              <point x="30.174999999999955" y="14.5" />
+            </edge>
+            <edge source="DataLayer.dao.UserDAO" target="DataLayer.model.User">
+              <point x="-38.40000000000009" y="-14.5" />
+              <point x="611.6499999999999" y="417.0" />
+              <point x="619.8499999999999" y="417.0" />
+              <point x="619.8499999999999" y="139.0" />
+              <point x="660.2749999999999" y="139.0" />
+              <point x="-5.3250000000000455" y="14.5" />
+            </edge>
+            <edge source="DataLayer.model.Enrolment" target="DataLayer.model.EnrolledCourse">
+              <point x="25.5" y="-14.5" />
+              <point x="1249.383191355385" y="516.0" />
+              <point x="1384.264396207584" y="516.0" />
+              <point x="-32.0" y="14.5" />
+            </edge>
+            <edge source="BusinessLogicLayer.bll.UserBLL" target="BusinessLogicLayer.validators.AddressValidator">
+              <point x="-38.9375" y="-14.5" />
+              <point x="502.16022954091716" y="576.0" />
+              <point x="83.54999999999995" y="576.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="PresentationLayer.StudentController" target="BusinessLogicLayer.bll.StudentBLL">
+              <point x="21.15000000000009" y="-14.5" />
+              <point x="949.1852295409172" y="894.0" />
+              <point x="966.230413577607" y="894.0" />
+              <point x="-13.375" y="14.5" />
+            </edge>
+            <edge source="PresentationLayer.TeacherController" target="DataLayer.model.User">
+              <point x="65.92857142857144" y="-14.5" />
+              <point x="1558.0263009694886" y="924.0" />
+              <point x="1931.2093366837744" y="924.0" />
+              <point x="1931.2093366837744" y="49.0" />
+              <point x="699.3249999999998" y="49.0" />
+              <point x="33.72499999999991" y="14.5" />
+            </edge>
+            <edge source="PresentationLayer.TeacherController" target="BusinessLogicLayer.bll.StudentBLL">
+              <point x="-65.92857142857144" y="-14.5" />
+              <point x="1426.169158112346" y="894.0" />
+              <point x="992.980413577607" y="894.0" />
+              <point x="13.375" y="14.5" />
+            </edge>
+            <edge source="PresentationLayer.Controller" target="DataLayer.model.User">
+              <point x="-42.85714285714289" y="-14.5" />
+              <point x="838.1780866837743" y="1092.0" />
+              <point x="0.0" y="1092.0" />
+              <point x="0.0" y="59.0" />
+              <point x="631.875" y="59.0" />
+              <point x="-33.72499999999991" y="14.5" />
+            </edge>
+            <edge source="BusinessLogicLayer.bll.UserBLL" target="BusinessLogicLayer.validators.IcnValidator">
+              <point x="-5.5625" y="-14.5" />
+              <point x="535.5352295409172" y="546.0" />
+              <point x="514.05" y="546.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="PresentationLayer.Controller" target="PresentationLayer.StudentView">
+              <point x="14.28571428571422" y="-14.5" />
+              <point x="895.3209438266314" y="1072.0" />
+              <point x="1081.9150793650797" y="1072.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="BusinessLogicLayer.bll.TeacherBLL" target="DataLayer.model.Course">
+              <point x="0.0" y="-14.5" />
+              <point x="1747.0049603174607" y="645.0" />
+              <point x="1734.985229540917" y="645.0" />
+              <point x="1734.985229540917" y="367.0" />
+              <point x="1603.6998015873014" y="367.0" />
+              <point x="36.74999999999994" y="14.5" />
+            </edge>
+            <edge source="PresentationLayer.StudentController" target="DataLayer.model.User">
+              <point x="-63.450000000000045" y="-14.5" />
+              <point x="864.5852295409171" y="924.0" />
+              <point x="3.5499999999999545" y="924.0" />
+              <point x="3.5499999999999545" y="69.0" />
+              <point x="635.425" y="69.0" />
+              <point x="-30.174999999999955" y="14.5" />
+            </edge>
+            <edge source="PresentationLayer.Controller" target="PresentationLayer.StudentController">
+              <point x="0.0" y="-14.5" />
+              <point x="-47.0" y="14.5" />
+            </edge>
+            <edge source="BusinessLogicLayer.bll.StudentBLL" target="BusinessLogicLayer.validators.InValidator">
+              <point x="47.55555555555566" y="-14.5" />
+              <point x="1027.1609691331628" y="765.0" />
+              <point x="1076.883191355385" y="765.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="BusinessLogicLayer.bll.UserBLL" target="BusinessLogicLayer.validators.NameValidator">
+              <point x="-16.6875" y="-14.5" />
+              <point x="524.4102295409172" y="556.0" />
+              <point x="374.04999999999995" y="556.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="BusinessLogicLayer.bll.UserBLL" target="BusinessLogicLayer.validators.CnpValidator">
+              <point x="-27.8125" y="-14.5" />
+              <point x="513.2852295409172" y="566.0" />
+              <point x="231.54999999999995" y="566.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="PresentationLayer.TeacherController" target="DataLayer.model.Course">
+              <point x="15.214285714285722" y="-14.5" />
+              <point x="1507.312015255203" y="874.0" />
+              <point x="1670.485229540917" y="874.0" />
+              <point x="1670.485229540917" y="377.0" />
+              <point x="1593.1998015873014" y="377.0" />
+              <point x="26.249999999999943" y="14.5" />
+            </edge>
+            <edge source="BusinessLogicLayer.bll.EnrolmentBLL" target="DataLayer.dao.EnrolmentDAO">
+              <point x="-17.14285714285711" y="-14.5" />
+              <point x="1359.1056660488532" y="735.0" />
+              <point x="1329.7998580220515" y="735.0" />
+              <point x="-32.0" y="14.5" />
+            </edge>
+            <edge source="BusinessLogicLayer.validators.UsernameValidator" target="DataLayer.model.User">
+              <point x="0.0" y="-14.5" />
+              <point x="1376.0926587301587" y="99.0" />
+              <point x="681.5749999999998" y="99.0" />
+              <point x="15.974999999999909" y="14.5" />
+            </edge>
+            <edge source="DataLayer.dao.EnrolmentDAO" target="DataLayer.model.Student">
+              <point x="-53.333333333333314" y="-14.5" />
+              <point x="1308.4665246887182" y="486.0" />
+              <point x="1321.2977295409173" y="486.0" />
+              <point x="1321.2977295409173" y="228.0" />
+              <point x="1077.7444444444443" y="228.0" />
+              <point x="41.25" y="14.5" />
+            </edge>
+            <edge source="PresentationLayer.StudentController" target="DataLayer.model.Student">
+              <point x="-7.0499999999999545" y="-14.5" />
+              <point x="920.9852295409172" y="884.0" />
+              <point x="854.55" y="884.0" />
+              <point x="854.55" y="268.0" />
+              <point x="1017.2444444444443" y="268.0" />
+              <point x="-19.25" y="14.5" />
+            </edge>
+            <edge source="PresentationLayer.StudentController" target="BusinessLogicLayer.bll.EnrolmentBLL">
+              <point x="49.34999999999991" y="-14.5" />
+              <point x="977.3852295409171" y="914.0" />
+              <point x="1331.2485231917103" y="914.0" />
+              <point x="-45.0" y="14.5" />
+            </edge>
+            <edge source="BusinessLogicLayer.bll.TeacherBLL" target="DataLayer.dao.TeacherDAO">
+              <point x="12.0" y="-14.5" />
+              <point x="1759.0049603174607" y="735.0" />
+              <point x="1797.485229540917" y="735.0" />
+              <point x="1797.485229540917" y="576.0" />
+              <point x="1774.235229540917" y="576.0" />
+              <point x="-28.75" y="14.5" />
+            </edge>
+            <edge source="PresentationLayer.TeacherView" target="DataLayer.model.Teacher">
+              <point x="43.125" y="-14.5" />
+              <point x="1894.3355723077657" y="1003.0" />
+              <point x="1914.1280866837742" y="1003.0" />
+              <point x="1914.1280866837742" y="377.0" />
+              <point x="1891.9316581123458" y="377.0" />
+              <point x="38.9375" y="14.5" />
+            </edge>
+            <edge source="DataLayer.dao.UserDAO" target="DataLayer.model.Teacher">
+              <point x="38.40000000000009" y="-14.5" />
+              <point x="688.45" y="407.0" />
+              <point x="1814.0566581123458" y="407.0" />
+              <point x="-38.9375" y="14.5" />
+            </edge>
+            <edge source="BusinessLogicLayer.bll.UserBLL" target="DataLayer.dao.UserDAO">
+              <point x="38.9375" y="-14.5" />
+              <point x="580.0352295409172" y="576.0" />
+              <point x="674.05" y="576.0" />
+              <point x="24.0" y="14.5" />
+            </edge>
+            <edge source="BusinessLogicLayer.bll.EnrolmentBLL" target="BusinessLogicLayer.validators.GrValidator">
+              <point x="17.14285714285711" y="-14.5" />
+              <point x="1393.3913803345674" y="745.0" />
+              <point x="1499.7998580220515" y="745.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="BusinessLogicLayer.bll.EnrolmentBLL" target="DataLayer.model.Enrolment">
+              <point x="-34.28571428571422" y="-14.5" />
+              <point x="1341.962808905996" y="745.0" />
+              <point x="1257.883191355385" y="745.0" />
+              <point x="34.0" y="14.5" />
+            </edge>
+            <edge source="PresentationLayer.TeacherController" target="DataLayer.model.Student">
+              <point x="-45.64285714285711" y="-14.5" />
+              <point x="1446.4548723980602" y="874.0" />
+              <point x="1156.883191355385" y="874.0" />
+              <point x="1156.883191355385" y="268.0" />
+              <point x="1055.7444444444443" y="268.0" />
+              <point x="19.25" y="14.5" />
+            </edge>
+            <edge source="BusinessLogicLayer.validators.CnpValidator" target="DataLayer.model.User">
+              <point x="0.0" y="-14.5" />
+              <point x="231.54999999999995" y="89.0" />
+              <point x="642.5249999999999" y="89.0" />
+              <point x="-23.075000000000045" y="14.5" />
+            </edge>
+            <edge source="PresentationLayer.StudentView" target="DataLayer.model.Student">
+              <point x="14.25" y="-14.5" />
+              <point x="1096.1650793650797" y="993.0" />
+              <point x="1140.383191355385" y="993.0" />
+              <point x="1140.383191355385" y="288.0" />
+              <point x="1044.7444444444443" y="288.0" />
+              <point x="8.25" y="14.5" />
+            </edge>
+            <edge source="DataLayer.model.Enrolment" target="DataLayer.model.Student">
+              <point x="-25.5" y="-14.5" />
+              <point x="1198.383191355385" y="486.0" />
+              <point x="1191.633191355385" y="486.0" />
+              <point x="1191.633191355385" y="238.0" />
+              <point x="1072.2444444444443" y="238.0" />
+              <point x="35.75" y="14.5" />
+            </edge>
+            <edge source="PresentationLayer.TeacherController" target="BusinessLogicLayer.bll.TeacherBLL">
+              <point x="25.357142857142833" y="-14.5" />
+              <point x="1517.4548723980602" y="884.0" />
+              <point x="1720.0049603174607" y="884.0" />
+              <point x="-27.0" y="14.5" />
+            </edge>
+            <edge source="PresentationLayer.TeacherController" target="DataLayer.model.EnrolledCourse">
+              <point x="5.071428571428555" y="-14.5" />
+              <point x="1497.169158112346" y="864.0" />
+              <point x="1590.3355723077657" y="864.0" />
+              <point x="1590.3355723077657" y="516.0" />
+              <point x="1473.864396207584" y="516.0" />
+              <point x="57.60000000000002" y="14.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.891462306993642" x="439.22058074375957" y="249.22058074375957" />
+          <SelectedNodes>
+            <node>DataLayer.model.User</node>
+          </SelectedNodes>
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/BusinessLogicLayer/bll/UserBLL.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="24" column="48" selection-start-line="24" selection-start-column="48" selection-end-line="24" selection-end-column="48" />
+          <folding>
+            <element signature="e#1176#1177#0" expanded="true" />
+            <element signature="e#1209#1210#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/umldiagrams/DataLayer.uml">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement />
+          <nodes>
+            <node x="" y="">DataLayer.model.Student</node>
+            <node x="" y="">DataLayer.model.Teacher</node>
+            <node x="" y="">DataLayer.model.EnrolledCourse</node>
+            <node x="" y="">DataLayer.model.User</node>
+            <node x="" y="">DataLayer.dao.EnrolmentDAO</node>
+            <node x="" y="">DataLayer.dao.CourseDAO</node>
+            <node x="" y="">DataLayer.connection.ConnectionFactory</node>
+            <node x="" y="">DataLayer.model.Enrolment</node>
+            <node x="" y="">DataLayer.model.Course</node>
+            <node x="" y="">DataLayer.dao.StudentDAO</node>
+            <node x="" y="">DataLayer.dao.TeacherDAO</node>
+            <node x="" y="">DataLayer.dao.UserDAO</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="197.0" y="160.5" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/DataLayer/dao/CourseDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/umldiagrams/PresentationLayer_UML.uml">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement />
+          <nodes>
+            <node x="" y="">PresentationLayer.StudentController</node>
+            <node x="" y="">PresentationLayer.TeacherController</node>
+            <node x="" y="">PresentationLayer.ProcessEnrolmentView</node>
+            <node x="" y="">PresentationLayer.AddNewStudentView</node>
+            <node x="" y="">PresentationLayer.EnrolmentStudentView</node>
+            <node x="" y="">PresentationLayer.EnrolmentTeacherView</node>
+            <node x="" y="">PresentationLayer.LoginView</node>
+            <node x="" y="">PresentationLayer.Controller</node>
+            <node x="" y="">PresentationLayer.StudentView</node>
+            <node x="" y="">PresentationLayer.TeacherView</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="139.0" y="228.5" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/DatabaseTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="524">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/modules1.uml">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>MODULES</ID>
+          <OriginalElement />
+          <nodes>
+            <node x="" y="">mdl-Assignment1</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="0.0" y="0.0" />
+          <SelectedNodes />
+          <Categories />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/umldiagrams/architect.uml">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement />
+          <nodes>
+            <node x="" y="">BusinessLogicLayer.validators.AddressValidator</node>
+            <node x="" y="">BusinessLogicLayer.bll.EnrolmentBLL</node>
+            <node x="" y="">BusinessLogicLayer.validators.UsernameValidator</node>
+            <node x="" y="">BusinessLogicLayer.validators.NameValidator</node>
+            <node x="" y="">BusinessLogicLayer.validators.IcnValidator</node>
+            <node x="" y="">BusinessLogicLayer.validators.CnpValidator</node>
+            <node x="" y="">BusinessLogicLayer.validators.InValidator</node>
+            <node x="" y="">BusinessLogicLayer.validators.Validator</node>
+            <node x="" y="">BusinessLogicLayer.bll.UserBLL</node>
+            <node x="" y="">BusinessLogicLayer.validators.GrValidator</node>
+            <node x="" y="">BusinessLogicLayer.bll.StudentBLL</node>
+            <node x="" y="">BusinessLogicLayer.bll.TeacherBLL</node>
+            <node x="" y="">BusinessLogicLayer.bll.ReportCreator</node>
+            <node x="" y="">BusinessLogicLayer.functions.Function</node>
+            <node x="" y="">BusinessLogicLayer.validators.GnValidator</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="553.0" y="165.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/BusinessLogicLayer/bll/StudentBLL.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="35" column="56" selection-start-line="35" selection-start-column="56" selection-end-line="35" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/umldiagrams/BLL_class_diagram.uml">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement />
+          <nodes>
+            <node x="" y="">BusinessLogicLayer.validators.AddressValidator</node>
+            <node x="" y="">BusinessLogicLayer.bll.EnrolmentBLL</node>
+            <node x="" y="">BusinessLogicLayer.validators.UsernameValidator</node>
+            <node x="" y="">BusinessLogicLayer.validators.NameValidator</node>
+            <node x="" y="">BusinessLogicLayer.validators.IcnValidator</node>
+            <node x="" y="">BusinessLogicLayer.validators.CnpValidator</node>
+            <node x="" y="">BusinessLogicLayer.validators.InValidator</node>
+            <node x="" y="">BusinessLogicLayer.bll.UserBLL</node>
+            <node x="" y="">BusinessLogicLayer.validators.GrValidator</node>
+            <node x="" y="">BusinessLogicLayer.bll.StudentBLL</node>
+            <node x="" y="">BusinessLogicLayer.bll.TeacherBLL</node>
+            <node x="" y="">BusinessLogicLayer.bll.ReportCreator</node>
+            <node x="" y="">BusinessLogicLayer.validators.GnValidator</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="362.5" y="272.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/BusinessLogicLayer/bll/TeacherBLL.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="524">
+          <caret line="59" column="45" selection-start-line="59" selection-start-column="45" selection-end-line="59" selection-end-column="45" />
+          <folding>
+            <element signature="e#1529#1530#0" expanded="true" />
+            <element signature="e#1559#1560#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/PresentationLayer/controllers/TeacherController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/PresentationLayer/views/EnrolmentTeacherView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="108" column="38" selection-start-line="108" selection-start-column="38" selection-end-line="108" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/PresentationLayer/views/EnrolmentStudentView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="395">
+          <caret line="34" column="58" lean-forward="true" selection-start-line="34" selection-start-column="58" selection-end-line="34" selection-end-column="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/PresentationLayer/views/StudentView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="497">
+          <caret line="44" column="17" selection-start-line="44" selection-start-column="17" selection-end-line="44" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/DataLayer/model/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
+          <folding>
+            <element signature="e#358#359#0" expanded="true" />
+            <element signature="e#391#392#0" expanded="true" />
+            <element signature="e#898#899#0" expanded="true" />
+            <element signature="e#1501#1502#0" expanded="true" />
+            <element signature="e#1539#1540#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/PresentationLayer/controllers/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/PresentationLayer/controllers/StudentController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1383#1384#0" expanded="true" />
+            <element signature="e#1425#1426#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/PresentationLayer/views/ProcessEnrolmentView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="73" column="5" lean-forward="true" selection-start-line="73" selection-start-column="5" selection-end-line="73" selection-end-column="5" />
         </state>
       </provider>
     </entry>
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArquillianSettingsConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />

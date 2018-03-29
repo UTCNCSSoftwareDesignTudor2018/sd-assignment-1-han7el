@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="387.9047619047618" y="99.0">DataLayer.model.Student</node>
+    <node x="26.583333333333258" y="208.0">DataLayer.model.Teacher</node>
+    <node x="584.8506944444443" y="208.0">DataLayer.model.EnrolledCourse</node>
+    <node x="113.88922619047617" y="0.0">DataLayer.model.User</node>
+    <node x="442.00349206349193" y="317.0">DataLayer.dao.EnrolmentDAO</node>
+    <node x="427.7435515873015" y="208.0">DataLayer.dao.CourseDAO</node>
+    <node x="166.82688492063485" y="99.0">DataLayer.connection.ConnectionFactory</node>
+    <node x="600.1331944444444" y="317.0">DataLayer.model.Enrolment</node>
+    <node x="554.3177976190475" y="99.0">DataLayer.model.Course</node>
+    <node x="280.5768849206348" y="208.0">DataLayer.dao.StudentDAO</node>
+    <node x="0.0" y="317.0">DataLayer.dao.TeacherDAO</node>
+    <node x="142.14916666666664" y="317.0">DataLayer.dao.UserDAO</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="DataLayer.dao.StudentDAO" target="DataLayer.model.Student">
+      <point x="42.75" y="-14.5" />
+      <point x="380.3268849206348" y="168.0" />
+      <point x="409.9047619047618" y="168.0" />
+      <point x="-22.0" y="14.5" />
+    </edge>
+    <edge source="DataLayer.dao.EnrolmentDAO" target="DataLayer.connection.ConnectionFactory">
+      <point x="-54.85714285714286" y="-14.5" />
+      <point x="451.1463492063491" y="277.0" />
+      <point x="221.62688492063486" y="277.0" />
+      <point x="221.62688492063486" y="188.0" />
+      <point x="239.82688492063485" y="188.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="DataLayer.dao.TeacherDAO" target="DataLayer.model.Teacher">
+      <point x="-14.375" y="-14.5" />
+      <point x="43.125" y="297.0" />
+      <point x="41.41666666666663" y="297.0" />
+      <point x="-29.66666666666663" y="14.5" />
+    </edge>
+    <edge source="DataLayer.dao.EnrolmentDAO" target="DataLayer.dao.CourseDAO">
+      <point x="2.8421709430404007E-14" y="-14.5" />
+      <point x="506.003492063492" y="297.0" />
+      <point x="509.49355158730145" y="297.0" />
+      <point x="27.24999999999997" y="14.5" />
+    </edge>
+    <edge source="DataLayer.model.EnrolledCourse" target="DataLayer.model.Course">
+      <point x="32.0" y="-14.5" />
+      <point x="680.8506944444443" y="178.0" />
+      <point x="617.3177976190475" y="178.0" />
+      <point x="21.0" y="14.5" />
+    </edge>
+    <edge source="DataLayer.model.Teacher" target="DataLayer.model.User">
+      <point x="22.25" y="-14.5" />
+      <point x="93.33333333333326" y="188.0" />
+      <point x="74.23265873015865" y="188.0" />
+      <point x="74.23265873015865" y="69.0" />
+      <point x="136.07672619047617" y="69.0" />
+      <point x="-13.3125" y="14.5" />
+    </edge>
+    <edge source="DataLayer.model.Student" target="DataLayer.model.User">
+      <point x="-22.0" y="-14.5" />
+      <point x="409.9047619047618" y="69.0" />
+      <point x="171.57672619047617" y="69.0" />
+      <point x="22.1875" y="14.5" />
+    </edge>
+    <edge source="DataLayer.dao.TeacherDAO" target="DataLayer.model.User">
+      <point x="-43.125" y="-14.5" />
+      <point x="14.375" y="297.0" />
+      <point x="16.083333333333258" y="297.0" />
+      <point x="16.083333333333258" y="49.0" />
+      <point x="118.32672619047617" y="49.0" />
+      <point x="-31.0625" y="14.5" />
+    </edge>
+    <edge source="DataLayer.dao.StudentDAO" target="DataLayer.model.User">
+      <point x="-14.25" y="-14.5" />
+      <point x="323.3268849206348" y="79.0" />
+      <point x="162.70172619047617" y="79.0" />
+      <point x="13.3125" y="14.5" />
+    </edge>
+    <edge source="DataLayer.model.Enrolment" target="DataLayer.model.Course">
+      <point x="42.5" y="-14.5" />
+      <point x="693.6331944444444" y="297.0" />
+      <point x="723.3506944444443" y="297.0" />
+      <point x="723.3506944444443" y="168.0" />
+      <point x="631.3177976190475" y="168.0" />
+      <point x="35.0" y="14.5" />
+    </edge>
+    <edge source="DataLayer.dao.UserDAO" target="DataLayer.model.Teacher">
+      <point x="-40.0" y="-14.5" />
+      <point x="150.14916666666664" y="277.0" />
+      <point x="100.74999999999989" y="277.0" />
+      <point x="29.66666666666663" y="14.5" />
+    </edge>
+    <edge source="DataLayer.dao.UserDAO" target="DataLayer.connection.ConnectionFactory">
+      <point x="8.0" y="-14.5" />
+      <point x="198.14916666666664" y="297.0" />
+      <point x="207.13682539682534" y="297.0" />
+      <point x="207.13682539682534" y="188.0" />
+      <point x="210.62688492063486" y="188.0" />
+      <point x="-29.19999999999999" y="14.5" />
+    </edge>
+    <edge source="DataLayer.dao.StudentDAO" target="DataLayer.connection.ConnectionFactory">
+      <point x="-42.75" y="-14.5" />
+      <point x="294.8268849206348" y="188.0" />
+      <point x="269.02688492063487" y="188.0" />
+      <point x="29.19999999999999" y="14.5" />
+    </edge>
+    <edge source="DataLayer.dao.EnrolmentDAO" target="DataLayer.model.EnrolledCourse">
+      <point x="36.571428571428584" y="-14.5" />
+      <point x="542.5749206349205" y="287.0" />
+      <point x="597.6506944444443" y="287.0" />
+      <point x="-51.2" y="14.5" />
+    </edge>
+    <edge source="DataLayer.dao.CourseDAO" target="DataLayer.model.Course">
+      <point x="36.333333333333286" y="-14.5" />
+      <point x="518.5768849206348" y="178.0" />
+      <point x="575.3177976190475" y="178.0" />
+      <point x="-21.0" y="14.5" />
+    </edge>
+    <edge source="DataLayer.dao.TeacherDAO" target="DataLayer.connection.ConnectionFactory">
+      <point x="43.125" y="-14.5" />
+      <point x="100.625" y="287.0" />
+      <point x="196.13682539682534" y="287.0" />
+      <point x="196.13682539682534" y="188.0" />
+      <point x="181.42688492063488" y="188.0" />
+      <point x="-58.39999999999998" y="14.5" />
+    </edge>
+    <edge source="DataLayer.dao.EnrolmentDAO" target="DataLayer.model.Course">
+      <point x="18.285714285714306" y="-14.5" />
+      <point x="524.2892063492062" y="277.0" />
+      <point x="569.2435515873015" y="277.0" />
+      <point x="569.2435515873015" y="188.0" />
+      <point x="589.3177976190475" y="188.0" />
+      <point x="-7.0" y="14.5" />
+    </edge>
+    <edge source="DataLayer.dao.UserDAO" target="DataLayer.model.Student">
+      <point x="40.0" y="-14.5" />
+      <point x="230.14916666666664" y="297.0" />
+      <point x="405.0768849206348" y="297.0" />
+      <point x="405.0768849206348" y="178.0" />
+      <point x="424.57142857142856" y="178.0" />
+      <point x="-7.333333333333314" y="14.5" />
+    </edge>
+    <edge source="DataLayer.dao.UserDAO" target="DataLayer.model.User">
+      <point x="-24.0" y="-14.5" />
+      <point x="166.14916666666664" y="267.0" />
+      <point x="127.22271825396817" y="267.0" />
+      <point x="127.22271825396817" y="79.0" />
+      <point x="144.95172619047617" y="79.0" />
+      <point x="-4.4375" y="14.5" />
+    </edge>
+    <edge source="DataLayer.model.Enrolment" target="DataLayer.model.EnrolledCourse">
+      <point x="25.5" y="-14.5" />
+      <point x="676.6331944444444" y="287.0" />
+      <point x="700.0506944444444" y="287.0" />
+      <point x="51.19999999999999" y="14.5" />
+    </edge>
+    <edge source="DataLayer.dao.UserDAO" target="DataLayer.dao.StudentDAO">
+      <point x="24.0" y="-14.5" />
+      <point x="214.14916666666664" y="287.0" />
+      <point x="337.5768849206348" y="287.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="DataLayer.model.Enrolment" target="DataLayer.model.Student">
+      <point x="-25.5" y="-14.5" />
+      <point x="625.6331944444444" y="257.0" />
+      <point x="558.2435515873015" y="257.0" />
+      <point x="558.2435515873015" y="148.0" />
+      <point x="468.57142857142844" y="148.0" />
+      <point x="36.66666666666663" y="14.5" />
+    </edge>
+    <edge source="DataLayer.dao.CourseDAO" target="DataLayer.connection.ConnectionFactory">
+      <point x="-36.33333333333337" y="-14.5" />
+      <point x="445.91021825396814" y="148.0" />
+      <point x="298.2268849206349" y="148.0" />
+      <point x="58.400000000000034" y="14.5" />
+    </edge>
+    <edge source="DataLayer.dao.EnrolmentDAO" target="DataLayer.model.Student">
+      <point x="-36.571428571428584" y="-14.5" />
+      <point x="469.4320634920633" y="267.0" />
+      <point x="416.0768849206348" y="267.0" />
+      <point x="416.0768849206348" y="188.0" />
+      <point x="439.2380952380952" y="188.0" />
+      <point x="7.333333333333314" y="14.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="197.0" y="160.5" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

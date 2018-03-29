@@ -1,0 +1,552 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="1560.1203444301875" y="169.0">BusinessLogicLayer.validators.AddressValidator</node>
+    <node x="2017.5328444301874" y="169.0">BusinessLogicLayer.validators.UsernameValidator</node>
+    <node x="1719.1203444301875" y="169.0">BusinessLogicLayer.validators.NameValidator</node>
+    <node x="1867.1203444301875" y="169.0">BusinessLogicLayer.validators.IcnValidator</node>
+    <node x="1423.1203444301875" y="169.0">BusinessLogicLayer.validators.CnpValidator</node>
+    <node x="403.3011904761906" y="586.0">DataLayer.dao.EnrolmentDAO</node>
+    <node x="1303.0703444301876" y="0.0">DataLayer.model.User</node>
+    <node x="296.76785714285734" y="437.0">DataLayer.dao.CourseDAO</node>
+    <node x="849.5511904761906" y="1052.0">PresentationLayer.Controller</node>
+    <node x="874.1758999857431" y="308.0">BusinessLogicLayer.validators.InValidator</node>
+    <node x="1530.7011904761905" y="586.0">BusinessLogicLayer.bll.UserBLL</node>
+    <node x="338.27709046193354" y="308.0">DataLayer.model.Course</node>
+    <node x="867.2676670468584" y="953.0">PresentationLayer.StudentView</node>
+    <node x="968.2432545623042" y="725.0">BusinessLogicLayer.bll.StudentBLL</node>
+    <node x="54.54881011785983" y="953.0">PresentationLayer.TeacherView</node>
+    <node x="1160.1203444301875" y="308.0">DataLayer.dao.StudentDAO</node>
+    <node x="1306.1203444301875" y="437.0">DataLayer.dao.UserDAO</node>
+    <node x="1012.1758999857431" y="308.0">BusinessLogicLayer.validators.GnValidator</node>
+    <node x="1001.8636904761906" y="874.0">PresentationLayer.StudentController</node>
+    <node x="437.80119047619064" y="874.0">PresentationLayer.TeacherController</node>
+    <node x="557.0308519865038" y="725.0">BusinessLogicLayer.bll.EnrolmentBLL</node>
+    <node x="914.9258999857431" y="169.0">DataLayer.model.Student</node>
+    <node x="49.52767857142862" y="308.0">DataLayer.model.Teacher</node>
+    <node x="521.7511904761907" y="437.0">DataLayer.model.EnrolledCourse</node>
+    <node x="728.7154767845265" y="586.0">DataLayer.model.Enrolment</node>
+    <node x="551.3011904761906" y="586.0">BusinessLogicLayer.validators.GrValidator</node>
+    <node x="232.26785714285734" y="725.0">BusinessLogicLayer.bll.TeacherBLL</node>
+    <node x="96.26785714285734" y="437.0">DataLayer.dao.TeacherDAO</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="DataLayer.model.EnrolledCourse" target="DataLayer.model.Course">
+      <point x="32.0" y="-14.5" />
+      <point x="617.7511904761907" y="397.0" />
+      <point x="406.52709046193354" y="397.0" />
+      <point x="26.25" y="14.5" />
+    </edge>
+    <edge source="DataLayer.dao.EnrolmentDAO" target="DataLayer.dao.CourseDAO">
+      <point x="-53.333333333333314" y="-14.5" />
+      <point x="413.96785714285727" y="516.0" />
+      <point x="364.89285714285734" y="516.0" />
+      <point x="13.625" y="14.5" />
+    </edge>
+    <edge source="BusinessLogicLayer.bll.StudentBLL" target="BusinessLogicLayer.validators.GnValidator">
+      <point x="-11.888888888888914" y="-14.5" />
+      <point x="1009.8543656734153" y="635.0" />
+      <point x="1067.675899985743" y="635.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="BusinessLogicLayer.bll.UserBLL" target="DataLayer.model.User">
+      <point x="-16.6875" y="-14.5" />
+      <point x="1558.5136904761905" y="546.0" />
+      <point x="1412.6203444301875" y="546.0" />
+      <point x="1412.6203444301875" y="119.0" />
+      <point x="1347.4453444301876" y="119.0" />
+      <point x="8.875" y="14.5" />
+    </edge>
+    <edge source="BusinessLogicLayer.bll.StudentBLL" target="DataLayer.dao.StudentDAO">
+      <point x="11.888888888888914" y="-14.5" />
+      <point x="1033.632143451193" y="655.0" />
+      <point x="1217.1203444301875" y="655.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="BusinessLogicLayer.bll.StudentBLL" target="BusinessLogicLayer.bll.UserBLL">
+      <point x="35.66666666666663" y="-14.5" />
+      <point x="1057.409921228971" y="695.0" />
+      <point x="1558.5136904761905" y="695.0" />
+      <point x="-16.6875" y="14.5" />
+    </edge>
+    <edge source="BusinessLogicLayer.validators.InValidator" target="DataLayer.model.Student">
+      <point x="0.0" y="-14.5" />
+      <point x="927.1758999857431" y="288.0" />
+      <point x="956.1758999857431" y="288.0" />
+      <point x="-2.75" y="14.5" />
+    </edge>
+    <edge source="BusinessLogicLayer.bll.TeacherBLL" target="BusinessLogicLayer.bll.UserBLL">
+      <point x="48.0" y="-14.5" />
+      <point x="334.26785714285734" y="685.0" />
+      <point x="1547.3886904761905" y="685.0" />
+      <point x="-27.8125" y="14.5" />
+    </edge>
+    <edge source="DataLayer.dao.EnrolmentDAO" target="DataLayer.model.EnrolledCourse">
+      <point x="10.666666666666686" y="-14.5" />
+      <point x="477.96785714285727" y="536.0" />
+      <point x="540.9511904761907" y="536.0" />
+      <point x="-44.799999999999955" y="14.5" />
+    </edge>
+    <edge source="BusinessLogicLayer.bll.TeacherBLL" target="DataLayer.dao.CourseDAO">
+      <point x="24.0" y="-14.5" />
+      <point x="310.26785714285734" y="665.0" />
+      <point x="329.51785714285734" y="665.0" />
+      <point x="329.51785714285734" y="566.0" />
+      <point x="337.64285714285734" y="566.0" />
+      <point x="-13.625" y="14.5" />
+    </edge>
+    <edge source="PresentationLayer.StudentController" target="DataLayer.model.EnrolledCourse">
+      <point x="-35.25" y="-14.5" />
+      <point x="1037.1136904761906" y="784.0" />
+      <point x="718.2154767845265" y="784.0" />
+      <point x="718.2154767845265" y="516.0" />
+      <point x="604.9511904761906" y="516.0" />
+      <point x="19.199999999999932" y="14.5" />
+    </edge>
+    <edge source="DataLayer.dao.UserDAO" target="DataLayer.dao.StudentDAO">
+      <point x="-19.200000000000045" y="-14.5" />
+      <point x="1334.9203444301875" y="367.0" />
+      <point x="1255.1203444301875" y="367.0" />
+      <point x="38.0" y="14.5" />
+    </edge>
+    <edge source="BusinessLogicLayer.validators.NameValidator" target="DataLayer.model.User">
+      <point x="0.0" y="-14.5" />
+      <point x="1783.1203444301875" y="89.0" />
+      <point x="1358.0953444301877" y="89.0" />
+      <point x="19.52500000000009" y="14.5" />
+    </edge>
+    <edge source="PresentationLayer.StudentView" target="PresentationLayer.StudentController">
+      <point x="14.25" y="-14.5" />
+      <point x="938.5176670468584" y="923.0" />
+      <point x="1025.3636904761906" y="923.0" />
+      <point x="-47.0" y="14.5" />
+    </edge>
+    <edge source="PresentationLayer.Controller" target="PresentationLayer.TeacherController">
+      <point x="-14.28571428571422" y="-14.5" />
+      <point x="885.2654761904764" y="1012.0" />
+      <point x="556.1345238095239" y="1012.0" />
+      <point x="47.33333333333337" y="14.5" />
+    </edge>
+    <edge source="PresentationLayer.StudentController" target="BusinessLogicLayer.bll.UserBLL">
+      <point x="49.34999999999991" y="-14.5" />
+      <point x="1121.7136904761905" y="844.0" />
+      <point x="1591.9511904761905" y="844.0" />
+      <point x="16.6875" y="14.5" />
+    </edge>
+    <edge source="BusinessLogicLayer.validators.AddressValidator" target="DataLayer.model.User">
+      <point x="0.0" y="-14.5" />
+      <point x="1629.6203444301875" y="99.0" />
+      <point x="1354.5453444301875" y="99.0" />
+      <point x="15.974999999999909" y="14.5" />
+    </edge>
+    <edge source="PresentationLayer.TeacherController" target="BusinessLogicLayer.bll.EnrolmentBLL">
+      <point x="5.071428571428555" y="-14.5" />
+      <point x="513.8726190476192" y="794.0" />
+      <point x="572.0308519865038" y="794.0" />
+      <point x="-45.0" y="14.5" />
+    </edge>
+    <edge source="PresentationLayer.TeacherView" target="PresentationLayer.TeacherController">
+      <point x="14.375" y="-14.5" />
+      <point x="126.42381011785983" y="923.0" />
+      <point x="461.46785714285727" y="923.0" />
+      <point x="-47.33333333333337" y="14.5" />
+    </edge>
+    <edge source="DataLayer.model.Teacher" target="DataLayer.model.User">
+      <point x="-22.25" y="-14.5" />
+      <point x="71.77767857142862" y="288.0" />
+      <point x="88.52767857142862" y="288.0" />
+      <point x="88.52767857142862" y="89.0" />
+      <point x="1315.4953444301875" y="89.0" />
+      <point x="-23.075000000000045" y="14.5" />
+    </edge>
+    <edge source="PresentationLayer.Controller" target="PresentationLayer.TeacherView">
+      <point x="-28.57142857142867" y="-14.5" />
+      <point x="870.979761904762" y="1022.0" />
+      <point x="112.04881011785983" y="1022.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="DataLayer.model.Student" target="DataLayer.model.User">
+      <point x="22.0" y="-14.5" />
+      <point x="980.9258999857431" y="129.0" />
+      <point x="1329.6953444301876" y="129.0" />
+      <point x="-8.875" y="14.5" />
+    </edge>
+    <edge source="BusinessLogicLayer.bll.StudentBLL" target="DataLayer.model.Student">
+      <point x="-35.66666666666663" y="-14.5" />
+      <point x="986.0765878956377" y="665.0" />
+      <point x="990.6758999857431" y="665.0" />
+      <point x="990.6758999857431" y="288.0" />
+      <point x="961.6758999857431" y="288.0" />
+      <point x="2.75" y="14.5" />
+    </edge>
+    <edge source="DataLayer.dao.StudentDAO" target="DataLayer.model.User">
+      <point x="38.0" y="-14.5" />
+      <point x="1255.1203444301875" y="139.0" />
+      <point x="1333.2453444301875" y="139.0" />
+      <point x="-5.3250000000000455" y="14.5" />
+    </edge>
+    <edge source="DataLayer.model.Enrolment" target="DataLayer.model.Course">
+      <point x="8.5" y="-14.5" />
+      <point x="788.2154767845265" y="387.0" />
+      <point x="417.02709046193354" y="387.0" />
+      <point x="36.75" y="14.5" />
+    </edge>
+    <edge source="DataLayer.dao.CourseDAO" target="DataLayer.model.Course">
+      <point x="27.25" y="-14.5" />
+      <point x="378.51785714285734" y="417.0" />
+      <point x="375.02709046193354" y="417.0" />
+      <point x="-5.25" y="14.5" />
+    </edge>
+    <edge source="PresentationLayer.Controller" target="BusinessLogicLayer.bll.UserBLL">
+      <point x="42.85714285714289" y="-14.5" />
+      <point x="942.4083333333335" y="1032.0" />
+      <point x="1613.9511904761905" y="1032.0" />
+      <point x="38.9375" y="14.5" />
+    </edge>
+    <edge source="DataLayer.dao.EnrolmentDAO" target="DataLayer.model.Course">
+      <point x="-10.666666666666629" y="-14.5" />
+      <point x="456.63452380952396" y="496.0" />
+      <point x="416.26785714285734" y="496.0" />
+      <point x="416.26785714285734" y="417.0" />
+      <point x="385.52709046193354" y="417.0" />
+      <point x="5.25" y="14.5" />
+    </edge>
+    <edge source="DataLayer.dao.UserDAO" target="DataLayer.model.Student">
+      <point x="0.0" y="-14.5" />
+      <point x="1354.1203444301875" y="357.0" />
+      <point x="1284.6203444301875" y="357.0" />
+      <point x="1284.6203444301875" y="218.0" />
+      <point x="1000.1758999857431" y="218.0" />
+      <point x="41.25" y="14.5" />
+    </edge>
+    <edge source="BusinessLogicLayer.bll.EnrolmentBLL" target="DataLayer.model.Student">
+      <point x="51.428571428571445" y="-14.5" />
+      <point x="668.4594234150752" y="665.0" />
+      <point x="841.2154767845265" y="665.0" />
+      <point x="841.2154767845265" y="248.0" />
+      <point x="934.1758999857431" y="248.0" />
+      <point x="-24.75" y="14.5" />
+    </edge>
+    <edge source="PresentationLayer.TeacherController" target="DataLayer.model.Teacher">
+      <point x="-45.64285714285711" y="-14.5" />
+      <point x="463.15833333333353" y="834.0" />
+      <point x="74.76785714285734" y="834.0" />
+      <point x="74.76785714285734" y="407.0" />
+      <point x="88.46517857142862" y="407.0" />
+      <point x="-5.5625" y="14.5" />
+    </edge>
+    <edge source="BusinessLogicLayer.validators.GnValidator" target="DataLayer.model.Student">
+      <point x="0.0" y="-14.5" />
+      <point x="1067.675899985743" y="268.0" />
+      <point x="972.6758999857431" y="268.0" />
+      <point x="13.75" y="14.5" />
+    </edge>
+    <edge source="BusinessLogicLayer.bll.TeacherBLL" target="DataLayer.model.Teacher">
+      <point x="-36.0" y="-14.5" />
+      <point x="250.26785714285734" y="695.0" />
+      <point x="85.76785714285734" y="695.0" />
+      <point x="85.76785714285734" y="417.0" />
+      <point x="99.59017857142862" y="417.0" />
+      <point x="5.5625" y="14.5" />
+    </edge>
+    <edge source="PresentationLayer.TeacherController" target="DataLayer.model.Enrolment">
+      <point x="35.5" y="-14.5" />
+      <point x="544.3011904761906" y="824.0" />
+      <point x="801.786905355955" y="824.0" />
+      <point x="801.786905355955" y="655.0" />
+      <point x="813.7154767845265" y="655.0" />
+      <point x="34.0" y="14.5" />
+    </edge>
+    <edge source="BusinessLogicLayer.validators.GrValidator" target="DataLayer.model.EnrolledCourse">
+      <point x="0.0" y="-14.5" />
+      <point x="605.3011904761906" y="546.0" />
+      <point x="566.5511904761906" y="546.0" />
+      <point x="-19.200000000000045" y="14.5" />
+    </edge>
+    <edge source="DataLayer.dao.StudentDAO" target="DataLayer.model.Student">
+      <point x="-38.0" y="-14.5" />
+      <point x="1179.1203444301875" y="238.0" />
+      <point x="989.1758999857431" y="238.0" />
+      <point x="30.25" y="14.5" />
+    </edge>
+    <edge source="BusinessLogicLayer.bll.StudentBLL" target="DataLayer.model.User">
+      <point x="23.77777777777783" y="-14.5" />
+      <point x="1045.521032340082" y="665.0" />
+      <point x="1295.6203444301875" y="665.0" />
+      <point x="1295.6203444301875" y="149.0" />
+      <point x="1336.7953444301875" y="149.0" />
+      <point x="-1.775000000000091" y="14.5" />
+    </edge>
+    <edge source="DataLayer.dao.TeacherDAO" target="DataLayer.model.Teacher">
+      <point x="0.0" y="-14.5" />
+      <point x="153.76785714285734" y="417.0" />
+      <point x="121.84017857142862" y="417.0" />
+      <point x="27.8125" y="14.5" />
+    </edge>
+    <edge source="DataLayer.dao.TeacherDAO" target="DataLayer.model.User">
+      <point x="38.33333333333337" y="-14.5" />
+      <point x="192.1011904761907" y="417.0" />
+      <point x="194.8170718087631" y="417.0" />
+      <point x="194.8170718087631" y="109.0" />
+      <point x="1322.5953444301877" y="109.0" />
+      <point x="-15.974999999999909" y="14.5" />
+    </edge>
+    <edge source="BusinessLogicLayer.validators.IcnValidator" target="DataLayer.model.User">
+      <point x="0.0" y="-14.5" />
+      <point x="1923.1203444301875" y="79.0" />
+      <point x="1361.6453444301876" y="79.0" />
+      <point x="23.075000000000045" y="14.5" />
+    </edge>
+    <edge source="BusinessLogicLayer.bll.EnrolmentBLL" target="DataLayer.model.EnrolledCourse">
+      <point x="17.14285714285711" y="-14.5" />
+      <point x="634.1737091293609" y="645.0" />
+      <point x="705.0511904761906" y="645.0" />
+      <point x="705.0511904761906" y="526.0" />
+      <point x="592.1511904761907" y="526.0" />
+      <point x="6.399999999999977" y="14.5" />
+    </edge>
+    <edge source="BusinessLogicLayer.bll.TeacherBLL" target="DataLayer.model.User">
+      <point x="-48.0" y="-14.5" />
+      <point x="238.26785714285734" y="705.0" />
+      <point x="19.362499999999955" y="705.0" />
+      <point x="19.362499999999955" y="79.0" />
+      <point x="1311.9453444301876" y="79.0" />
+      <point x="-26.625" y="14.5" />
+    </edge>
+    <edge source="DataLayer.dao.UserDAO" target="DataLayer.model.User">
+      <point x="19.200000000000102" y="-14.5" />
+      <point x="1373.3203444301876" y="417.0" />
+      <point x="1376.7288678595196" y="417.0" />
+      <point x="1376.7288678595196" y="139.0" />
+      <point x="1340.3453444301877" y="139.0" />
+      <point x="1.775000000000091" y="14.5" />
+    </edge>
+    <edge source="DataLayer.model.Enrolment" target="DataLayer.model.EnrolledCourse">
+      <point x="-25.5" y="-14.5" />
+      <point x="754.2154767845265" y="496.0" />
+      <point x="630.5511904761906" y="496.0" />
+      <point x="44.799999999999955" y="14.5" />
+    </edge>
+    <edge source="BusinessLogicLayer.bll.UserBLL" target="BusinessLogicLayer.validators.AddressValidator">
+      <point x="5.5625" y="-14.5" />
+      <point x="1580.7636904761905" y="536.0" />
+      <point x="1629.6203444301875" y="536.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="PresentationLayer.StudentController" target="BusinessLogicLayer.bll.StudentBLL">
+      <point x="-7.0499999999999545" y="-14.5" />
+      <point x="1065.3136904761907" y="854.0" />
+      <point x="1061.8682545623042" y="854.0" />
+      <point x="40.125" y="14.5" />
+    </edge>
+    <edge source="PresentationLayer.TeacherController" target="DataLayer.model.User">
+      <point x="-65.92857142857144" y="-14.5" />
+      <point x="442.8726190476192" y="854.0" />
+      <point x="15.8125" y="854.0" />
+      <point x="15.8125" y="69.0" />
+      <point x="1308.3953444301876" y="69.0" />
+      <point x="-30.174999999999955" y="14.5" />
+    </edge>
+    <edge source="PresentationLayer.TeacherController" target="BusinessLogicLayer.bll.StudentBLL">
+      <point x="55.785714285714334" y="-14.5" />
+      <point x="564.586904761905" y="844.0" />
+      <point x="981.6182545623042" y="844.0" />
+      <point x="-40.125" y="14.5" />
+    </edge>
+    <edge source="PresentationLayer.Controller" target="DataLayer.model.User">
+      <point x="-42.85714285714289" y="-14.5" />
+      <point x="856.6940476190478" y="1032.0" />
+      <point x="0.0" y="1032.0" />
+      <point x="0.0" y="59.0" />
+      <point x="1304.8453444301877" y="59.0" />
+      <point x="-33.72499999999991" y="14.5" />
+    </edge>
+    <edge source="BusinessLogicLayer.bll.UserBLL" target="BusinessLogicLayer.validators.IcnValidator">
+      <point x="27.8125" y="-14.5" />
+      <point x="1603.0136904761905" y="556.0" />
+      <point x="1923.1203444301875" y="556.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="PresentationLayer.Controller" target="PresentationLayer.StudentView">
+      <point x="0.0" y="-14.5" />
+      <point x="899.5511904761906" y="1002.0" />
+      <point x="924.2676670468584" y="1002.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="BusinessLogicLayer.bll.TeacherBLL" target="DataLayer.model.Course">
+      <point x="0.0" y="-14.5" />
+      <point x="286.26785714285734" y="407.0" />
+      <point x="354.02709046193354" y="407.0" />
+      <point x="-26.25" y="14.5" />
+    </edge>
+    <edge source="PresentationLayer.StudentController" target="DataLayer.model.User">
+      <point x="63.450000000000045" y="-14.5" />
+      <point x="1135.8136904761907" y="854.0" />
+      <point x="2007.0328444301874" y="854.0" />
+      <point x="2007.0328444301874" y="59.0" />
+      <point x="1368.7453444301875" y="59.0" />
+      <point x="30.174999999999955" y="14.5" />
+    </edge>
+    <edge source="PresentationLayer.Controller" target="PresentationLayer.StudentController">
+      <point x="14.28571428571422" y="-14.5" />
+      <point x="913.8369047619049" y="1012.0" />
+      <point x="1119.3636904761906" y="1012.0" />
+      <point x="47.0" y="14.5" />
+    </edge>
+    <edge source="BusinessLogicLayer.bll.StudentBLL" target="BusinessLogicLayer.validators.InValidator">
+      <point x="-47.55555555555554" y="-14.5" />
+      <point x="974.1876990067487" y="665.0" />
+      <point x="927.1758999857431" y="665.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="BusinessLogicLayer.bll.UserBLL" target="BusinessLogicLayer.validators.NameValidator">
+      <point x="16.6875" y="-14.5" />
+      <point x="1591.8886904761905" y="546.0" />
+      <point x="1783.1203444301875" y="546.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="BusinessLogicLayer.bll.UserBLL" target="BusinessLogicLayer.validators.CnpValidator">
+      <point x="-5.5625" y="-14.5" />
+      <point x="1569.6386904761905" y="536.0" />
+      <point x="1481.6203444301875" y="536.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="PresentationLayer.TeacherController" target="DataLayer.model.Course">
+      <point x="-35.5" y="-14.5" />
+      <point x="473.30119047619064" y="824.0" />
+      <point x="221.76785714285734" y="824.0" />
+      <point x="221.76785714285734" y="397.0" />
+      <point x="343.52709046193354" y="397.0" />
+      <point x="-36.75" y="14.5" />
+    </edge>
+    <edge source="BusinessLogicLayer.bll.EnrolmentBLL" target="DataLayer.dao.EnrolmentDAO">
+      <point x="-51.428571428571445" y="-14.5" />
+      <point x="565.6022805579323" y="665.0" />
+      <point x="435.3011904761906" y="665.0" />
+      <point x="-32.0" y="14.5" />
+    </edge>
+    <edge source="BusinessLogicLayer.validators.UsernameValidator" target="DataLayer.model.User">
+      <point x="0.0" y="-14.5" />
+      <point x="2092.0328444301877" y="49.0" />
+      <point x="1372.2953444301875" y="49.0" />
+      <point x="33.72499999999991" y="14.5" />
+    </edge>
+    <edge source="DataLayer.dao.EnrolmentDAO" target="DataLayer.model.Student">
+      <point x="53.333333333333314" y="-14.5" />
+      <point x="520.6345238095239" y="556.0" />
+      <point x="809.2154767845265" y="556.0" />
+      <point x="809.2154767845265" y="218.0" />
+      <point x="917.6758999857431" y="218.0" />
+      <point x="-41.25" y="14.5" />
+    </edge>
+    <edge source="PresentationLayer.StudentController" target="DataLayer.model.Student">
+      <point x="21.15000000000009" y="-14.5" />
+      <point x="1093.5136904761907" y="824.0" />
+      <point x="1149.6203444301875" y="824.0" />
+      <point x="1149.6203444301875" y="248.0" />
+      <point x="983.6758999857431" y="248.0" />
+      <point x="24.75" y="14.5" />
+    </edge>
+    <edge source="PresentationLayer.StudentController" target="BusinessLogicLayer.bll.EnrolmentBLL">
+      <point x="-63.44999999999993" y="-14.5" />
+      <point x="1008.9136904761906" y="804.0" />
+      <point x="632.0308519865038" y="804.0" />
+      <point x="15.0" y="14.5" />
+    </edge>
+    <edge source="BusinessLogicLayer.bll.TeacherBLL" target="DataLayer.dao.TeacherDAO">
+      <point x="-12.0" y="-14.5" />
+      <point x="274.26785714285734" y="675.0" />
+      <point x="159.26785714285734" y="675.0" />
+      <point x="159.26785714285734" y="566.0" />
+      <point x="182.51785714285734" y="566.0" />
+      <point x="28.75" y="14.5" />
+    </edge>
+    <edge source="PresentationLayer.TeacherView" target="DataLayer.model.Teacher">
+      <point x="-14.375" y="-14.5" />
+      <point x="97.67381011785983" y="923.0" />
+      <point x="53.625" y="923.0" />
+      <point x="53.625" y="387.0" />
+      <point x="66.21517857142862" y="387.0" />
+      <point x="-27.8125" y="14.5" />
+    </edge>
+    <edge source="DataLayer.dao.UserDAO" target="DataLayer.model.Teacher">
+      <point x="-38.40000000000009" y="-14.5" />
+      <point x="1315.7203444301874" y="377.0" />
+      <point x="132.96517857142862" y="377.0" />
+      <point x="38.9375" y="14.5" />
+    </edge>
+    <edge source="BusinessLogicLayer.bll.UserBLL" target="DataLayer.dao.UserDAO">
+      <point x="-27.8125" y="-14.5" />
+      <point x="1547.3886904761905" y="556.0" />
+      <point x="1378.1203444301875" y="556.0" />
+      <point x="24.0" y="14.5" />
+    </edge>
+    <edge source="BusinessLogicLayer.bll.EnrolmentBLL" target="BusinessLogicLayer.validators.GrValidator">
+      <point x="-17.14285714285711" y="-14.5" />
+      <point x="599.8879948436467" y="665.0" />
+      <point x="605.3011904761906" y="665.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="BusinessLogicLayer.bll.EnrolmentBLL" target="DataLayer.model.Enrolment">
+      <point x="34.285714285714334" y="-14.5" />
+      <point x="651.3165662722181" y="655.0" />
+      <point x="745.7154767845265" y="655.0" />
+      <point x="-34.0" y="14.5" />
+    </edge>
+    <edge source="PresentationLayer.TeacherController" target="DataLayer.model.Student">
+      <point x="45.64285714285711" y="-14.5" />
+      <point x="554.4440476190478" y="834.0" />
+      <point x="846.7154767845265" y="834.0" />
+      <point x="846.7154767845265" y="258.0" />
+      <point x="939.6758999857431" y="258.0" />
+      <point x="-19.25" y="14.5" />
+    </edge>
+    <edge source="BusinessLogicLayer.validators.CnpValidator" target="DataLayer.model.User">
+      <point x="0.0" y="-14.5" />
+      <point x="1481.6203444301875" y="109.0" />
+      <point x="1350.9953444301875" y="109.0" />
+      <point x="12.424999999999955" y="14.5" />
+    </edge>
+    <edge source="PresentationLayer.StudentView" target="DataLayer.model.Student">
+      <point x="-42.75" y="-14.5" />
+      <point x="881.5176670468584" y="933.0" />
+      <point x="852.6758999857431" y="933.0" />
+      <point x="852.6758999857431" y="268.0" />
+      <point x="945.1758999857431" y="268.0" />
+      <point x="-13.75" y="14.5" />
+    </edge>
+    <edge source="DataLayer.model.Enrolment" target="DataLayer.model.Student">
+      <point x="42.5" y="-14.5" />
+      <point x="822.2154767845265" y="566.0" />
+      <point x="825.7154767845265" y="566.0" />
+      <point x="825.7154767845265" y="238.0" />
+      <point x="928.6758999857431" y="238.0" />
+      <point x="-30.25" y="14.5" />
+    </edge>
+    <edge source="PresentationLayer.TeacherController" target="BusinessLogicLayer.bll.TeacherBLL">
+      <point x="-25.35714285714289" y="-14.5" />
+      <point x="483.44404761904775" y="814.0" />
+      <point x="259.26785714285734" y="814.0" />
+      <point x="-27.0" y="14.5" />
+    </edge>
+    <edge source="PresentationLayer.TeacherController" target="DataLayer.model.EnrolledCourse">
+      <point x="-5.071428571428555" y="-14.5" />
+      <point x="503.7297619047621" y="794.0" />
+      <point x="392.8011904761906" y="794.0" />
+      <point x="392.8011904761906" y="526.0" />
+      <point x="528.1511904761907" y="526.0" />
+      <point x="-57.60000000000002" y="14.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.5000000000000001" x="1164.0" y="669.1666666666666" />
+  <SelectedNodes>
+    <node>DataLayer.dao.UserDAO</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

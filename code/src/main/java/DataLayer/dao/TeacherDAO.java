@@ -52,7 +52,6 @@ public class TeacherDAO {
             deleteStatement.executeUpdate();
         } catch (SQLException e) {
             LOGGER.log(Level.WARNING, "TeacherDAO:delete " + e.getMessage());
-            throw new IllegalArgumentException(e.getMessage());
         } finally {
             ConnectionFactory.close(deleteStatement);
             ConnectionFactory.close(dbConnection);
@@ -73,6 +72,7 @@ public class TeacherDAO {
             updateStatement.executeUpdate();
         }catch(SQLException e){
             LOGGER.log(Level.WARNING,"TeacherDAO:updateTeacher " + e.getMessage());
+            new IllegalArgumentException(e.getMessage());
         }finally {
             ConnectionFactory.close(updateStatement);
             ConnectionFactory.close(dbConnection);
